@@ -30,7 +30,7 @@ public class Welcome extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jPanel1 = new javax.swing.JPanel();
+        pnlRoot = new javax.swing.JPanel();
         pnlMenu = new javax.swing.JPanel();
         lblLogOut = new javax.swing.JLabel();
         lblFullName = new javax.swing.JLabel();
@@ -55,46 +55,265 @@ public class Welcome extends javax.swing.JFrame {
         lblVollyball = new javax.swing.JLabel();
         pnlContent = new javax.swing.JPanel();
         pnlBadmintonMain = new javax.swing.JPanel();
-        jPanel2 = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jPanel3 = new javax.swing.JPanel();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel12 = new javax.swing.JLabel();
-        jSpinner1 = new javax.swing.JSpinner();
-        jLabel13 = new javax.swing.JLabel();
-        jSpinner2 = new javax.swing.JSpinner();
-        jButton1 = new javax.swing.JButton();
-        jLabel14 = new javax.swing.JLabel();
-        jScrollPane1 = new javax.swing.JScrollPane();
+        BDpnlTittleBar = new javax.swing.JPanel();
+        BDlblPath = new javax.swing.JLabel();
+        BDlblSection = new javax.swing.JLabel();
+        BDpnlCheckForm = new javax.swing.JPanel();
+        BDlblCheckFormTittle = new javax.swing.JLabel();
+        BDlblDate_Check = new javax.swing.JLabel();
+        BDspnrDate_Check = new javax.swing.JSpinner();
+        BDlblTime_Check = new javax.swing.JLabel();
+        BDspnrTime_Check = new javax.swing.JSpinner();
+        BDbtnCheck = new javax.swing.JButton();
+        BDlblAvailability = new javax.swing.JLabel();
+        BDlblCourtNo_Check = new javax.swing.JLabel();
+        BDscrlCourtNo_Check = new javax.swing.JScrollPane();
+        jList3 = new javax.swing.JList<>();
+        BDpnlBookForm = new javax.swing.JPanel();
+        BDlblBookFormTittle = new javax.swing.JLabel();
+        BDlblReason = new javax.swing.JLabel();
+        BDscrlReason = new javax.swing.JScrollPane();
+        jList2 = new javax.swing.JList<>();
+        BDlblDate_Book = new javax.swing.JLabel();
+        BDspnrDate_Book = new javax.swing.JSpinner();
+        BDlblTime_Book = new javax.swing.JLabel();
+        BDspnrTime_Book = new javax.swing.JSpinner();
+        BDlblCourtNo_Book = new javax.swing.JLabel();
+        BDscrlCourtNo_Book = new javax.swing.JScrollPane();
         jList1 = new javax.swing.JList<>();
-        jLabel15 = new javax.swing.JLabel();
-        jPanel4 = new javax.swing.JPanel();
-        jLabel16 = new javax.swing.JLabel();
+        BDbtnBook = new javax.swing.JButton();
         pnlBasketballMain = new javax.swing.JPanel();
-        jLabel4 = new javax.swing.JLabel();
+        BBpnlTittleBar = new javax.swing.JPanel();
+        BBlblPath = new javax.swing.JLabel();
+        BBlblSection = new javax.swing.JLabel();
+        BBpnlCheckForm = new javax.swing.JPanel();
+        BBlblCheckFormTittle = new javax.swing.JLabel();
+        BBlblDate_Check = new javax.swing.JLabel();
+        BBspnrDate_Check = new javax.swing.JSpinner();
+        BBlblTime_Check = new javax.swing.JLabel();
+        BBspnrTime_Check = new javax.swing.JSpinner();
+        BBbtnCheck = new javax.swing.JButton();
+        BBlblAvailability = new javax.swing.JLabel();
+        BBlblCourtNo_Check = new javax.swing.JLabel();
+        BBscrlCourtNo_Check = new javax.swing.JScrollPane();
+        jList28 = new javax.swing.JList<>();
+        BBpnlBookForm = new javax.swing.JPanel();
+        BBlblBookFormTittle = new javax.swing.JLabel();
+        BBlblReason = new javax.swing.JLabel();
+        BBscrlReason = new javax.swing.JScrollPane();
+        jList29 = new javax.swing.JList<>();
+        BBlblDate_Book = new javax.swing.JLabel();
+        BBspnrDate_Book = new javax.swing.JSpinner();
+        BBlblTime_Book = new javax.swing.JLabel();
+        BBspnrTime_Book = new javax.swing.JSpinner();
+        BBlblCourtNo_Book = new javax.swing.JLabel();
+        BBscrlCourtNo_Book = new javax.swing.JScrollPane();
+        jList30 = new javax.swing.JList<>();
+        BBbtnBook = new javax.swing.JButton();
         pnlCricketMain = new javax.swing.JPanel();
-        jLabel5 = new javax.swing.JLabel();
+        CpnlTittleBar = new javax.swing.JPanel();
+        ClblPath = new javax.swing.JLabel();
+        ClblSection = new javax.swing.JLabel();
+        CpnlCheckForm = new javax.swing.JPanel();
+        ClblCheckFormTittle = new javax.swing.JLabel();
+        ClblDate_Check = new javax.swing.JLabel();
+        CspnrDate_Check = new javax.swing.JSpinner();
+        ClblTime_Check = new javax.swing.JLabel();
+        CspnrTime_Check = new javax.swing.JSpinner();
+        CbtnCheck = new javax.swing.JButton();
+        ClblAvailability = new javax.swing.JLabel();
+        ClblCourtNo_Check = new javax.swing.JLabel();
+        CscrlCourtNo_ChecK = new javax.swing.JScrollPane();
+        jList31 = new javax.swing.JList<>();
+        CpnlBookForm = new javax.swing.JPanel();
+        ClblBookFormTittle = new javax.swing.JLabel();
+        ClblReason = new javax.swing.JLabel();
+        CscrlReason = new javax.swing.JScrollPane();
+        jList32 = new javax.swing.JList<>();
+        ClblDate_Book = new javax.swing.JLabel();
+        CspnrDate_Book = new javax.swing.JSpinner();
+        ClblTime_Book = new javax.swing.JLabel();
+        CspnrTime_Book = new javax.swing.JSpinner();
+        ClblCourtNo_Book = new javax.swing.JLabel();
+        CscrlCourtNo_Book = new javax.swing.JScrollPane();
+        jList33 = new javax.swing.JList<>();
+        CbtnBook = new javax.swing.JButton();
         pnlFootballMain = new javax.swing.JPanel();
-        jLabel6 = new javax.swing.JLabel();
+        FpnlCheckForm = new javax.swing.JPanel();
+        FlblCheckFormTittle = new javax.swing.JLabel();
+        FlblDate_Check = new javax.swing.JLabel();
+        FspnrDate_Check = new javax.swing.JSpinner();
+        FlblTime_Check = new javax.swing.JLabel();
+        FspnrTime_Check = new javax.swing.JSpinner();
+        FbtnCheck = new javax.swing.JButton();
+        FlblAvailability = new javax.swing.JLabel();
+        FlblCourtNo_Check = new javax.swing.JLabel();
+        FscrlCourtNo_Check = new javax.swing.JScrollPane();
+        jList34 = new javax.swing.JList<>();
+        FpnlBookForm = new javax.swing.JPanel();
+        FlblBookFormTittle = new javax.swing.JLabel();
+        FlblReason = new javax.swing.JLabel();
+        FscrlReason = new javax.swing.JScrollPane();
+        jList35 = new javax.swing.JList<>();
+        FlblDate_Book = new javax.swing.JLabel();
+        FspnrDate_Book = new javax.swing.JSpinner();
+        FlblTime_Book = new javax.swing.JLabel();
+        FspnrTime_Book = new javax.swing.JSpinner();
+        FlblCourtNo_Book = new javax.swing.JLabel();
+        FscrlCourtNo_Book = new javax.swing.JScrollPane();
+        jList36 = new javax.swing.JList<>();
+        FbtnBook = new javax.swing.JButton();
+        FpnlTittleBar = new javax.swing.JPanel();
+        FlblPath = new javax.swing.JLabel();
+        FlblSection = new javax.swing.JLabel();
         pnlHokeyMain = new javax.swing.JPanel();
-        jLabel7 = new javax.swing.JLabel();
-        pnlNetballMain = new javax.swing.JPanel();
-        jLabel8 = new javax.swing.JLabel();
+        HpnlCheckForm = new javax.swing.JPanel();
+        HlblCheckFormTittle = new javax.swing.JLabel();
+        HlblDate_Check = new javax.swing.JLabel();
+        HspnrDate_Check = new javax.swing.JSpinner();
+        HlblTime_Check = new javax.swing.JLabel();
+        HspnrTime_Check = new javax.swing.JSpinner();
+        HbtnCheck = new javax.swing.JButton();
+        HlblAvailability = new javax.swing.JLabel();
+        HlblCourtNo_Check = new javax.swing.JLabel();
+        HscrlCourtNo_Check = new javax.swing.JScrollPane();
+        jList37 = new javax.swing.JList<>();
+        HpnlBookForm = new javax.swing.JPanel();
+        HlblBookFormTittle = new javax.swing.JLabel();
+        HlblReason = new javax.swing.JLabel();
+        HscrlReason = new javax.swing.JScrollPane();
+        jList38 = new javax.swing.JList<>();
+        HlblDate_Book = new javax.swing.JLabel();
+        HspnrDate_Book = new javax.swing.JSpinner();
+        HlblTime_Book = new javax.swing.JLabel();
+        HspnrTime_Book = new javax.swing.JSpinner();
+        HlblCourtNo_Book = new javax.swing.JLabel();
+        HscrlCourtNo_Book = new javax.swing.JScrollPane();
+        jList39 = new javax.swing.JList<>();
+        HbtnBook = new javax.swing.JButton();
+        HpnlTittleBar = new javax.swing.JPanel();
+        HlblPath = new javax.swing.JLabel();
+        HlblSection = new javax.swing.JLabel();
         pnlRugerMain = new javax.swing.JPanel();
-        jLabel9 = new javax.swing.JLabel();
+        RpnlCheckForm = new javax.swing.JPanel();
+        RlblCheckFormTittle = new javax.swing.JLabel();
+        RlblDate_Check = new javax.swing.JLabel();
+        RspnrDate_Check = new javax.swing.JSpinner();
+        RlblTime_Check = new javax.swing.JLabel();
+        RspnrTime_Check = new javax.swing.JSpinner();
+        RbtnCheck = new javax.swing.JButton();
+        RlblAvailability = new javax.swing.JLabel();
+        RlblCourtNo_Check = new javax.swing.JLabel();
+        RscrlCourtNo_Check = new javax.swing.JScrollPane();
+        jList40 = new javax.swing.JList<>();
+        RpnlBookForm = new javax.swing.JPanel();
+        RlblBookFormTittle = new javax.swing.JLabel();
+        RlblReason = new javax.swing.JLabel();
+        RscrlReason = new javax.swing.JScrollPane();
+        jList41 = new javax.swing.JList<>();
+        RlblDate_Book = new javax.swing.JLabel();
+        RspnrDate_Book = new javax.swing.JSpinner();
+        RlblTime_Book = new javax.swing.JLabel();
+        RspnrTime_Book = new javax.swing.JSpinner();
+        RlblCourtNo_Book = new javax.swing.JLabel();
+        RscrlCourtNo_Book = new javax.swing.JScrollPane();
+        jList42 = new javax.swing.JList<>();
+        RbtnBook = new javax.swing.JButton();
+        RpnlTittleBar = new javax.swing.JPanel();
+        RlblPath = new javax.swing.JLabel();
+        RlblSection = new javax.swing.JLabel();
         pnlTabletenisMain = new javax.swing.JPanel();
-        jLabel10 = new javax.swing.JLabel();
+        TTpnlCheckForm = new javax.swing.JPanel();
+        TTlblCheckFormTittle = new javax.swing.JLabel();
+        TTlblDate_Check = new javax.swing.JLabel();
+        TTspnrDate_Check = new javax.swing.JSpinner();
+        TTlblTime_Check = new javax.swing.JLabel();
+        TTspnrTime_Check = new javax.swing.JSpinner();
+        TTbtnCheck = new javax.swing.JButton();
+        TTlblAvailability = new javax.swing.JLabel();
+        TTlblCourtNo_Check = new javax.swing.JLabel();
+        TTscrlCourtNo_Check = new javax.swing.JScrollPane();
+        jList43 = new javax.swing.JList<>();
+        TTpnlBookForm = new javax.swing.JPanel();
+        TTlblBookFormTittle = new javax.swing.JLabel();
+        TTlblReason = new javax.swing.JLabel();
+        TTscrlReason = new javax.swing.JScrollPane();
+        jList44 = new javax.swing.JList<>();
+        TTlblDate_Book = new javax.swing.JLabel();
+        TTspnrDate_Book = new javax.swing.JSpinner();
+        TTlblTime_Book = new javax.swing.JLabel();
+        TTspnrTime_Book = new javax.swing.JSpinner();
+        TTlblCourtNo_Book = new javax.swing.JLabel();
+        TTscrlCourtNo_Book = new javax.swing.JScrollPane();
+        jList45 = new javax.swing.JList<>();
+        TTbtnBook = new javax.swing.JButton();
+        TTpnlTittleBar = new javax.swing.JPanel();
+        TTlblPath = new javax.swing.JLabel();
+        TTlblSection = new javax.swing.JLabel();
         pnlVollyballMain = new javax.swing.JPanel();
-        jLabel11 = new javax.swing.JLabel();
+        VpnlCheckForm = new javax.swing.JPanel();
+        VlblCheckFormTittle = new javax.swing.JLabel();
+        VlblDate_Check = new javax.swing.JLabel();
+        VspnrDate_Check = new javax.swing.JSpinner();
+        VlblTime_Check = new javax.swing.JLabel();
+        VspnrTime_Check = new javax.swing.JSpinner();
+        VbtnCheck = new javax.swing.JButton();
+        VlblAvailability = new javax.swing.JLabel();
+        VlblCourtNo_Check = new javax.swing.JLabel();
+        VscrlCourtNo_Check = new javax.swing.JScrollPane();
+        jList46 = new javax.swing.JList<>();
+        VpnlBookForm = new javax.swing.JPanel();
+        VlblBookFormTittle = new javax.swing.JLabel();
+        VlblReason = new javax.swing.JLabel();
+        VscrlReason = new javax.swing.JScrollPane();
+        jList47 = new javax.swing.JList<>();
+        VlblDate_Book = new javax.swing.JLabel();
+        VspnrDate_Book = new javax.swing.JSpinner();
+        VlblTime_Book = new javax.swing.JLabel();
+        VspnrTime_Book = new javax.swing.JSpinner();
+        VlblCourtNo_Book = new javax.swing.JLabel();
+        VscrlCourtNo_Book = new javax.swing.JScrollPane();
+        jList48 = new javax.swing.JList<>();
+        VbtnBook = new javax.swing.JButton();
+        VpnlTittleBar = new javax.swing.JPanel();
+        VlblPath = new javax.swing.JLabel();
+        VlblSection = new javax.swing.JLabel();
+        pnlNetballMain = new javax.swing.JPanel();
+        NpnlCheckForm = new javax.swing.JPanel();
+        NlblCheckFormTittle = new javax.swing.JLabel();
+        NlblDate_Check = new javax.swing.JLabel();
+        NspnrDate_Check = new javax.swing.JSpinner();
+        NlblTime_Check = new javax.swing.JLabel();
+        NspnrTime_Check = new javax.swing.JSpinner();
+        NbtnCheck = new javax.swing.JButton();
+        NlblAvailability = new javax.swing.JLabel();
+        NlblCourtNo_Check = new javax.swing.JLabel();
+        NscrlCourtNo_Check = new javax.swing.JScrollPane();
+        jList49 = new javax.swing.JList<>();
+        NpnlBookForm = new javax.swing.JPanel();
+        NlblBookFormTittle = new javax.swing.JLabel();
+        NlblReason = new javax.swing.JLabel();
+        NscrlReason = new javax.swing.JScrollPane();
+        jList50 = new javax.swing.JList<>();
+        NlblDate_Book = new javax.swing.JLabel();
+        NspnrDate_Book = new javax.swing.JSpinner();
+        NlblTime_Book = new javax.swing.JLabel();
+        NspnrTime_Book = new javax.swing.JSpinner();
+        NlblCourtNo_Book = new javax.swing.JLabel();
+        NscrlCourtNo_Book = new javax.swing.JScrollPane();
+        jList51 = new javax.swing.JList<>();
+        NbtnBook = new javax.swing.JButton();
+        NpnlTittleBar = new javax.swing.JPanel();
+        NlblPath = new javax.swing.JLabel();
+        NlblSection = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setLocationByPlatform(true);
         setUndecorated(true);
         setPreferredSize(new java.awt.Dimension(850, 600));
 
-        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        pnlRoot.setBackground(new java.awt.Color(255, 255, 255));
+        pnlRoot.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         pnlMenu.setBackground(new java.awt.Color(54, 33, 89));
 
@@ -106,7 +325,7 @@ public class Welcome extends javax.swing.JFrame {
 
         lblWelcome.setFont(new java.awt.Font("Dialog", 1, 36)); // NOI18N
         lblWelcome.setForeground(new java.awt.Color(255, 255, 255));
-        lblWelcome.setText("Welcome");
+        lblWelcome.setText("RecApp");
 
         pnlBadminton.setBackground(new java.awt.Color(111, 107, 150));
         pnlBadminton.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -297,350 +516,2124 @@ public class Welcome extends javax.swing.JFrame {
                 .addGap(128, 128, 128))
         );
 
-        jPanel1.add(pnlMenu, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 290, 600));
+        pnlRoot.add(pnlMenu, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 290, 600));
 
         pnlContent.setBackground(new java.awt.Color(255, 255, 255));
         pnlContent.setLayout(new java.awt.CardLayout());
 
-        jPanel2.setBackground(new java.awt.Color(110, 88, 222));
+        BDpnlTittleBar.setBackground(new java.awt.Color(110, 88, 222));
 
-        jLabel1.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("Home/");
+        BDlblPath.setBackground(new java.awt.Color(255, 255, 255));
+        BDlblPath.setForeground(new java.awt.Color(255, 255, 255));
+        BDlblPath.setText("Home/");
 
-        jLabel2.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel2.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel2.setText("Badminton");
+        BDlblSection.setBackground(new java.awt.Color(255, 255, 255));
+        BDlblSection.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        BDlblSection.setForeground(new java.awt.Color(255, 255, 255));
+        BDlblSection.setText("Badminton");
 
-        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
-        jPanel2.setLayout(jPanel2Layout);
-        jPanel2Layout.setHorizontalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
+        javax.swing.GroupLayout BDpnlTittleBarLayout = new javax.swing.GroupLayout(BDpnlTittleBar);
+        BDpnlTittleBar.setLayout(BDpnlTittleBarLayout);
+        BDpnlTittleBarLayout.setHorizontalGroup(
+            BDpnlTittleBarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(BDpnlTittleBarLayout.createSequentialGroup()
                 .addGap(37, 37, 37)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel2)
-                    .addComponent(jLabel1))
+                .addGroup(BDpnlTittleBarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(BDlblSection)
+                    .addComponent(BDlblPath))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
-        jPanel2Layout.setVerticalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
+        BDpnlTittleBarLayout.setVerticalGroup(
+            BDpnlTittleBarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(BDpnlTittleBarLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel1)
+                .addComponent(BDlblPath)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel2)
+                .addComponent(BDlblSection)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jPanel3.setBackground(new java.awt.Color(153, 153, 153));
+        BDpnlCheckForm.setBackground(new java.awt.Color(153, 153, 153));
 
-        jLabel3.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel3.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel3.setText("Check Availability");
+        BDlblCheckFormTittle.setBackground(new java.awt.Color(255, 255, 255));
+        BDlblCheckFormTittle.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        BDlblCheckFormTittle.setForeground(new java.awt.Color(255, 255, 255));
+        BDlblCheckFormTittle.setText("Check Availability");
 
-        jLabel12.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel12.setText("Chose Date :");
+        BDlblDate_Check.setForeground(new java.awt.Color(255, 255, 255));
+        BDlblDate_Check.setText("Chose Date :");
 
-        jLabel13.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel13.setText("Chose Time :");
+        BDlblTime_Check.setForeground(new java.awt.Color(255, 255, 255));
+        BDlblTime_Check.setText("Chose Time :");
 
-        jButton1.setText("Check");
+        BDbtnCheck.setText("Check");
 
-        jLabel14.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
-        jLabel14.setForeground(new java.awt.Color(0, 255, 0));
-        jLabel14.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel14.setText("Available !");
+        BDlblAvailability.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        BDlblAvailability.setForeground(new java.awt.Color(0, 255, 0));
+        BDlblAvailability.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        BDlblAvailability.setText("Available !");
+
+        BDlblCourtNo_Check.setForeground(new java.awt.Color(255, 255, 255));
+        BDlblCourtNo_Check.setText("Court No :");
+
+        jList3.setModel(new javax.swing.AbstractListModel<String>() {
+            String[] strings = { "Court A", "Court B", "Court C" };
+            public int getSize() { return strings.length; }
+            public String getElementAt(int i) { return strings[i]; }
+        });
+        BDscrlCourtNo_Check.setViewportView(jList3);
+
+        javax.swing.GroupLayout BDpnlCheckFormLayout = new javax.swing.GroupLayout(BDpnlCheckForm);
+        BDpnlCheckForm.setLayout(BDpnlCheckFormLayout);
+        BDpnlCheckFormLayout.setHorizontalGroup(
+            BDpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(BDpnlCheckFormLayout.createSequentialGroup()
+                .addGap(31, 31, 31)
+                .addGroup(BDpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(BDlblCheckFormTittle)
+                    .addGroup(BDpnlCheckFormLayout.createSequentialGroup()
+                        .addGroup(BDpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(BDlblDate_Check)
+                            .addComponent(BDlblCourtNo_Check))
+                        .addGap(18, 18, 18)
+                        .addGroup(BDpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(BDpnlCheckFormLayout.createSequentialGroup()
+                                .addComponent(BDspnrDate_Check, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(28, 28, 28)
+                                .addComponent(BDlblTime_Check))
+                            .addComponent(BDscrlCourtNo_Check, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addGroup(BDpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(BDbtnCheck)
+                            .addComponent(BDspnrTime_Check, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addContainerGap(109, Short.MAX_VALUE))
+            .addGroup(BDpnlCheckFormLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(BDlblAvailability, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+        BDpnlCheckFormLayout.setVerticalGroup(
+            BDpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(BDpnlCheckFormLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(BDlblCheckFormTittle)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(BDpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(BDlblDate_Check)
+                    .addComponent(BDspnrDate_Check, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(BDlblTime_Check)
+                    .addComponent(BDspnrTime_Check, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(BDpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(BDpnlCheckFormLayout.createSequentialGroup()
+                        .addGroup(BDpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(BDscrlCourtNo_Check, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(BDlblCourtNo_Check))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(BDlblAvailability))
+                    .addGroup(BDpnlCheckFormLayout.createSequentialGroup()
+                        .addComponent(BDbtnCheck)
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addContainerGap())
+        );
+
+        BDpnlBookForm.setBackground(new java.awt.Color(153, 153, 153));
+
+        BDlblBookFormTittle.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        BDlblBookFormTittle.setForeground(new java.awt.Color(255, 255, 255));
+        BDlblBookFormTittle.setText("Make a Booking");
+
+        BDlblReason.setForeground(new java.awt.Color(255, 255, 255));
+        BDlblReason.setText("Reason :");
+
+        jList2.setModel(new javax.swing.AbstractListModel<String>() {
+            String[] strings = { "Personal Practice", "Team Practice", "Friendly Match", "Compition" };
+            public int getSize() { return strings.length; }
+            public String getElementAt(int i) { return strings[i]; }
+        });
+        BDscrlReason.setViewportView(jList2);
+
+        BDlblDate_Book.setForeground(new java.awt.Color(255, 255, 255));
+        BDlblDate_Book.setText("Chose Date :");
+
+        BDlblTime_Book.setForeground(new java.awt.Color(255, 255, 255));
+        BDlblTime_Book.setText("Chose Time :");
+
+        BDlblCourtNo_Book.setForeground(new java.awt.Color(255, 255, 255));
+        BDlblCourtNo_Book.setText("Court No :");
 
         jList1.setModel(new javax.swing.AbstractListModel<String>() {
             String[] strings = { "Court A", "Court B", "Court C" };
             public int getSize() { return strings.length; }
             public String getElementAt(int i) { return strings[i]; }
         });
-        jScrollPane1.setViewportView(jList1);
+        BDscrlCourtNo_Book.setViewportView(jList1);
 
-        jLabel15.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel15.setText("Court No :");
+        BDbtnBook.setText("Book");
 
-        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
-        jPanel3.setLayout(jPanel3Layout);
-        jPanel3Layout.setHorizontalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel3Layout.createSequentialGroup()
-                .addGap(31, 31, 31)
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel3)
-                    .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel12)
-                            .addComponent(jLabel15))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jSpinner1)
-                            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 100, Short.MAX_VALUE))
-                        .addGap(33, 33, 33)
-                        .addComponent(jLabel13)
-                        .addGap(18, 18, 18)
-                        .addComponent(jSpinner2, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(36, 36, 36)
-                        .addComponent(jButton1)))
-                .addContainerGap(39, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel14, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addContainerGap())
-        );
-        jPanel3Layout.setVerticalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel3Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel3)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel12)
-                    .addComponent(jSpinner1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel13)
-                    .addComponent(jSpinner2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton1))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel15)
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel14)
-                .addContainerGap())
-        );
-
-        jPanel4.setBackground(new java.awt.Color(153, 153, 153));
-
-        jLabel16.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        jLabel16.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel16.setText("Make a Booking");
-
-        javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
-        jPanel4.setLayout(jPanel4Layout);
-        jPanel4Layout.setHorizontalGroup(
-            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel4Layout.createSequentialGroup()
+        javax.swing.GroupLayout BDpnlBookFormLayout = new javax.swing.GroupLayout(BDpnlBookForm);
+        BDpnlBookForm.setLayout(BDpnlBookFormLayout);
+        BDpnlBookFormLayout.setHorizontalGroup(
+            BDpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(BDpnlBookFormLayout.createSequentialGroup()
                 .addGap(34, 34, 34)
-                .addComponent(jLabel16)
+                .addGroup(BDpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(BDpnlBookFormLayout.createSequentialGroup()
+                        .addComponent(BDlblCourtNo_Book)
+                        .addGap(34, 34, 34)
+                        .addGroup(BDpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(BDbtnBook)
+                            .addComponent(BDscrlCourtNo_Book, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addComponent(BDlblBookFormTittle)
+                    .addGroup(BDpnlBookFormLayout.createSequentialGroup()
+                        .addComponent(BDlblReason)
+                        .addGap(42, 42, 42)
+                        .addComponent(BDscrlReason, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(BDpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                        .addGroup(javax.swing.GroupLayout.Alignment.LEADING, BDpnlBookFormLayout.createSequentialGroup()
+                            .addComponent(BDlblTime_Book)
+                            .addGap(18, 18, 18)
+                            .addComponent(BDspnrTime_Book))
+                        .addGroup(javax.swing.GroupLayout.Alignment.LEADING, BDpnlBookFormLayout.createSequentialGroup()
+                            .addComponent(BDlblDate_Book)
+                            .addGap(20, 20, 20)
+                            .addComponent(BDspnrDate_Book, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
-        jPanel4Layout.setVerticalGroup(
-            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel4Layout.createSequentialGroup()
+        BDpnlBookFormLayout.setVerticalGroup(
+            BDpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(BDpnlBookFormLayout.createSequentialGroup()
                 .addGap(15, 15, 15)
-                .addComponent(jLabel16)
-                .addContainerGap(300, Short.MAX_VALUE))
+                .addComponent(BDlblBookFormTittle)
+                .addGap(25, 25, 25)
+                .addGroup(BDpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(BDscrlReason, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(BDlblReason))
+                .addGap(18, 18, 18)
+                .addGroup(BDpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(BDlblDate_Book)
+                    .addComponent(BDspnrDate_Book, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(24, 24, 24)
+                .addGroup(BDpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(BDlblTime_Book)
+                    .addComponent(BDspnrTime_Book, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(BDpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(BDlblCourtNo_Book)
+                    .addComponent(BDscrlCourtNo_Book, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addComponent(BDbtnBook)
+                .addContainerGap(23, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout pnlBadmintonMainLayout = new javax.swing.GroupLayout(pnlBadmintonMain);
         pnlBadmintonMain.setLayout(pnlBadmintonMainLayout);
         pnlBadmintonMainLayout.setHorizontalGroup(
             pnlBadmintonMainLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(BDpnlTittleBar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(pnlBadmintonMainLayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(pnlBadmintonMainLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(BDpnlCheckForm, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(BDpnlBookForm, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
         pnlBadmintonMainLayout.setVerticalGroup(
             pnlBadmintonMainLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(pnlBadmintonMainLayout.createSequentialGroup()
                 .addGap(46, 46, 46)
-                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(BDpnlTittleBar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(BDpnlCheckForm, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(BDpnlBookForm, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
         pnlContent.add(pnlBadmintonMain, "card2");
 
-        jLabel4.setText("Basketball");
+        BBpnlTittleBar.setBackground(new java.awt.Color(110, 88, 222));
+
+        BBlblPath.setBackground(new java.awt.Color(255, 255, 255));
+        BBlblPath.setForeground(new java.awt.Color(255, 255, 255));
+        BBlblPath.setText("Home/");
+
+        BBlblSection.setBackground(new java.awt.Color(255, 255, 255));
+        BBlblSection.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        BBlblSection.setForeground(new java.awt.Color(255, 255, 255));
+        BBlblSection.setText("Basketball");
+
+        javax.swing.GroupLayout BBpnlTittleBarLayout = new javax.swing.GroupLayout(BBpnlTittleBar);
+        BBpnlTittleBar.setLayout(BBpnlTittleBarLayout);
+        BBpnlTittleBarLayout.setHorizontalGroup(
+            BBpnlTittleBarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(BBpnlTittleBarLayout.createSequentialGroup()
+                .addGap(37, 37, 37)
+                .addGroup(BBpnlTittleBarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(BBlblSection)
+                    .addComponent(BBlblPath))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        BBpnlTittleBarLayout.setVerticalGroup(
+            BBpnlTittleBarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(BBpnlTittleBarLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(BBlblPath)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(BBlblSection)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        BBpnlCheckForm.setBackground(new java.awt.Color(153, 153, 153));
+
+        BBlblCheckFormTittle.setBackground(new java.awt.Color(255, 255, 255));
+        BBlblCheckFormTittle.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        BBlblCheckFormTittle.setForeground(new java.awt.Color(255, 255, 255));
+        BBlblCheckFormTittle.setText("Check Availability");
+
+        BBlblDate_Check.setForeground(new java.awt.Color(255, 255, 255));
+        BBlblDate_Check.setText("Chose Date :");
+
+        BBlblTime_Check.setForeground(new java.awt.Color(255, 255, 255));
+        BBlblTime_Check.setText("Chose Time :");
+
+        BBbtnCheck.setText("Check");
+
+        BBlblAvailability.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        BBlblAvailability.setForeground(new java.awt.Color(0, 255, 0));
+        BBlblAvailability.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        BBlblAvailability.setText("Available !");
+
+        BBlblCourtNo_Check.setForeground(new java.awt.Color(255, 255, 255));
+        BBlblCourtNo_Check.setText("Court No :");
+
+        jList28.setModel(new javax.swing.AbstractListModel<String>() {
+            String[] strings = { "Court A", "Court B", "Court C" };
+            public int getSize() { return strings.length; }
+            public String getElementAt(int i) { return strings[i]; }
+        });
+        BBscrlCourtNo_Check.setViewportView(jList28);
+
+        javax.swing.GroupLayout BBpnlCheckFormLayout = new javax.swing.GroupLayout(BBpnlCheckForm);
+        BBpnlCheckForm.setLayout(BBpnlCheckFormLayout);
+        BBpnlCheckFormLayout.setHorizontalGroup(
+            BBpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(BBpnlCheckFormLayout.createSequentialGroup()
+                .addGap(31, 31, 31)
+                .addGroup(BBpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(BBlblCheckFormTittle)
+                    .addGroup(BBpnlCheckFormLayout.createSequentialGroup()
+                        .addGroup(BBpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(BBlblDate_Check)
+                            .addComponent(BBlblCourtNo_Check))
+                        .addGap(18, 18, 18)
+                        .addGroup(BBpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(BBpnlCheckFormLayout.createSequentialGroup()
+                                .addComponent(BBspnrDate_Check, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(28, 28, 28)
+                                .addComponent(BBlblTime_Check))
+                            .addComponent(BBscrlCourtNo_Check, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addGroup(BBpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(BBbtnCheck)
+                            .addComponent(BBspnrTime_Check, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addContainerGap(109, Short.MAX_VALUE))
+            .addGroup(BBpnlCheckFormLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(BBlblAvailability, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+        BBpnlCheckFormLayout.setVerticalGroup(
+            BBpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(BBpnlCheckFormLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(BBlblCheckFormTittle)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(BBpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(BBlblDate_Check)
+                    .addComponent(BBspnrDate_Check, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(BBlblTime_Check)
+                    .addComponent(BBspnrTime_Check, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(BBpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(BBpnlCheckFormLayout.createSequentialGroup()
+                        .addGroup(BBpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(BBscrlCourtNo_Check, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(BBlblCourtNo_Check))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(BBlblAvailability))
+                    .addGroup(BBpnlCheckFormLayout.createSequentialGroup()
+                        .addComponent(BBbtnCheck)
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addContainerGap())
+        );
+
+        BBpnlBookForm.setBackground(new java.awt.Color(153, 153, 153));
+
+        BBlblBookFormTittle.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        BBlblBookFormTittle.setForeground(new java.awt.Color(255, 255, 255));
+        BBlblBookFormTittle.setText("Make a Booking");
+
+        BBlblReason.setForeground(new java.awt.Color(255, 255, 255));
+        BBlblReason.setText("Reason :");
+
+        jList29.setModel(new javax.swing.AbstractListModel<String>() {
+            String[] strings = { "Personal Practice", "Team Practice", "Friendly Match", "Compition" };
+            public int getSize() { return strings.length; }
+            public String getElementAt(int i) { return strings[i]; }
+        });
+        BBscrlReason.setViewportView(jList29);
+
+        BBlblDate_Book.setForeground(new java.awt.Color(255, 255, 255));
+        BBlblDate_Book.setText("Chose Date :");
+
+        BBlblTime_Book.setForeground(new java.awt.Color(255, 255, 255));
+        BBlblTime_Book.setText("Chose Time :");
+
+        BBlblCourtNo_Book.setForeground(new java.awt.Color(255, 255, 255));
+        BBlblCourtNo_Book.setText("Court No :");
+
+        jList30.setModel(new javax.swing.AbstractListModel<String>() {
+            String[] strings = { "Court A", "Court B", "Court C" };
+            public int getSize() { return strings.length; }
+            public String getElementAt(int i) { return strings[i]; }
+        });
+        BBscrlCourtNo_Book.setViewportView(jList30);
+
+        BBbtnBook.setText("Book");
+
+        javax.swing.GroupLayout BBpnlBookFormLayout = new javax.swing.GroupLayout(BBpnlBookForm);
+        BBpnlBookForm.setLayout(BBpnlBookFormLayout);
+        BBpnlBookFormLayout.setHorizontalGroup(
+            BBpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(BBpnlBookFormLayout.createSequentialGroup()
+                .addGap(34, 34, 34)
+                .addGroup(BBpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(BBpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addGroup(BBpnlBookFormLayout.createSequentialGroup()
+                            .addComponent(BBlblCourtNo_Book)
+                            .addGap(34, 34, 34)
+                            .addGroup(BBpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(BBbtnBook)
+                                .addComponent(BBscrlCourtNo_Book, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(BBlblBookFormTittle)
+                        .addGroup(BBpnlBookFormLayout.createSequentialGroup()
+                            .addComponent(BBlblReason)
+                            .addGap(42, 42, 42)
+                            .addComponent(BBscrlReason, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(BBpnlBookFormLayout.createSequentialGroup()
+                            .addComponent(BBlblTime_Book)
+                            .addGap(18, 18, 18)
+                            .addComponent(BBspnrTime_Book)
+                            .addGap(30, 30, 30)))
+                    .addGroup(BBpnlBookFormLayout.createSequentialGroup()
+                        .addGroup(BBpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(BBlblDate_Book)
+                            .addGroup(BBpnlBookFormLayout.createSequentialGroup()
+                                .addGap(91, 91, 91)
+                                .addComponent(BBspnrDate_Book, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        BBpnlBookFormLayout.setVerticalGroup(
+            BBpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(BBpnlBookFormLayout.createSequentialGroup()
+                .addGap(15, 15, 15)
+                .addComponent(BBlblBookFormTittle)
+                .addGap(25, 25, 25)
+                .addGroup(BBpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(BBscrlReason, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(BBlblReason))
+                .addGap(19, 19, 19)
+                .addGroup(BBpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(BBlblDate_Book)
+                    .addComponent(BBspnrDate_Book, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(BBpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(BBlblTime_Book)
+                    .addComponent(BBspnrTime_Book, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(BBpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(BBlblCourtNo_Book)
+                    .addComponent(BBscrlCourtNo_Book, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addComponent(BBbtnBook)
+                .addContainerGap(28, Short.MAX_VALUE))
+        );
 
         javax.swing.GroupLayout pnlBasketballMainLayout = new javax.swing.GroupLayout(pnlBasketballMain);
         pnlBasketballMain.setLayout(pnlBasketballMainLayout);
         pnlBasketballMainLayout.setHorizontalGroup(
             pnlBasketballMainLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(BBpnlTittleBar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(pnlBasketballMainLayout.createSequentialGroup()
-                .addGap(246, 246, 246)
-                .addComponent(jLabel4)
-                .addContainerGap(254, Short.MAX_VALUE))
+                .addContainerGap()
+                .addGroup(pnlBasketballMainLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(BBpnlCheckForm, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(BBpnlBookForm, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap())
         );
         pnlBasketballMainLayout.setVerticalGroup(
             pnlBasketballMainLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(pnlBasketballMainLayout.createSequentialGroup()
-                .addGap(281, 281, 281)
-                .addComponent(jLabel4)
-                .addContainerGap(303, Short.MAX_VALUE))
+                .addGap(46, 46, 46)
+                .addComponent(BBpnlTittleBar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(BBpnlCheckForm, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(BBpnlBookForm, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
         );
 
         pnlContent.add(pnlBasketballMain, "card2");
 
-        jLabel5.setText("Cricket");
+        CpnlTittleBar.setBackground(new java.awt.Color(110, 88, 222));
+
+        ClblPath.setBackground(new java.awt.Color(255, 255, 255));
+        ClblPath.setForeground(new java.awt.Color(255, 255, 255));
+        ClblPath.setText("Home/");
+
+        ClblSection.setBackground(new java.awt.Color(255, 255, 255));
+        ClblSection.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        ClblSection.setForeground(new java.awt.Color(255, 255, 255));
+        ClblSection.setText("Cricket");
+
+        javax.swing.GroupLayout CpnlTittleBarLayout = new javax.swing.GroupLayout(CpnlTittleBar);
+        CpnlTittleBar.setLayout(CpnlTittleBarLayout);
+        CpnlTittleBarLayout.setHorizontalGroup(
+            CpnlTittleBarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(CpnlTittleBarLayout.createSequentialGroup()
+                .addGap(37, 37, 37)
+                .addGroup(CpnlTittleBarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(ClblSection)
+                    .addComponent(ClblPath))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        CpnlTittleBarLayout.setVerticalGroup(
+            CpnlTittleBarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(CpnlTittleBarLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(ClblPath)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(ClblSection)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        CpnlCheckForm.setBackground(new java.awt.Color(153, 153, 153));
+
+        ClblCheckFormTittle.setBackground(new java.awt.Color(255, 255, 255));
+        ClblCheckFormTittle.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        ClblCheckFormTittle.setForeground(new java.awt.Color(255, 255, 255));
+        ClblCheckFormTittle.setText("Check Availability");
+
+        ClblDate_Check.setForeground(new java.awt.Color(255, 255, 255));
+        ClblDate_Check.setText("Chose Date :");
+
+        ClblTime_Check.setForeground(new java.awt.Color(255, 255, 255));
+        ClblTime_Check.setText("Chose Time :");
+
+        CbtnCheck.setText("Check");
+
+        ClblAvailability.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        ClblAvailability.setForeground(new java.awt.Color(0, 255, 0));
+        ClblAvailability.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        ClblAvailability.setText("Available !");
+
+        ClblCourtNo_Check.setForeground(new java.awt.Color(255, 255, 255));
+        ClblCourtNo_Check.setText("Court No :");
+
+        jList31.setModel(new javax.swing.AbstractListModel<String>() {
+            String[] strings = { "Court A", "Court B", "Court C" };
+            public int getSize() { return strings.length; }
+            public String getElementAt(int i) { return strings[i]; }
+        });
+        CscrlCourtNo_ChecK.setViewportView(jList31);
+
+        javax.swing.GroupLayout CpnlCheckFormLayout = new javax.swing.GroupLayout(CpnlCheckForm);
+        CpnlCheckForm.setLayout(CpnlCheckFormLayout);
+        CpnlCheckFormLayout.setHorizontalGroup(
+            CpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(CpnlCheckFormLayout.createSequentialGroup()
+                .addGap(31, 31, 31)
+                .addGroup(CpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(ClblCheckFormTittle)
+                    .addGroup(CpnlCheckFormLayout.createSequentialGroup()
+                        .addGroup(CpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(ClblDate_Check)
+                            .addComponent(ClblCourtNo_Check))
+                        .addGap(18, 18, 18)
+                        .addGroup(CpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(CpnlCheckFormLayout.createSequentialGroup()
+                                .addComponent(CspnrDate_Check, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(28, 28, 28)
+                                .addComponent(ClblTime_Check))
+                            .addComponent(CscrlCourtNo_ChecK, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addGroup(CpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(CbtnCheck)
+                            .addComponent(CspnrTime_Check, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addContainerGap(109, Short.MAX_VALUE))
+            .addGroup(CpnlCheckFormLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(ClblAvailability, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+        CpnlCheckFormLayout.setVerticalGroup(
+            CpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(CpnlCheckFormLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(ClblCheckFormTittle)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(CpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(ClblDate_Check)
+                    .addComponent(CspnrDate_Check, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(ClblTime_Check)
+                    .addComponent(CspnrTime_Check, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(CpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(CpnlCheckFormLayout.createSequentialGroup()
+                        .addGroup(CpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(CscrlCourtNo_ChecK, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(ClblCourtNo_Check))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(ClblAvailability))
+                    .addGroup(CpnlCheckFormLayout.createSequentialGroup()
+                        .addComponent(CbtnCheck)
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addContainerGap())
+        );
+
+        CpnlBookForm.setBackground(new java.awt.Color(153, 153, 153));
+
+        ClblBookFormTittle.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        ClblBookFormTittle.setForeground(new java.awt.Color(255, 255, 255));
+        ClblBookFormTittle.setText("Make a Booking");
+
+        ClblReason.setForeground(new java.awt.Color(255, 255, 255));
+        ClblReason.setText("Reason :");
+
+        jList32.setModel(new javax.swing.AbstractListModel<String>() {
+            String[] strings = { "Personal Practice", "Team Practice", "Friendly Match", "Compition" };
+            public int getSize() { return strings.length; }
+            public String getElementAt(int i) { return strings[i]; }
+        });
+        CscrlReason.setViewportView(jList32);
+
+        ClblDate_Book.setForeground(new java.awt.Color(255, 255, 255));
+        ClblDate_Book.setText("Chose Date :");
+
+        ClblTime_Book.setForeground(new java.awt.Color(255, 255, 255));
+        ClblTime_Book.setText("Chose Time :");
+
+        ClblCourtNo_Book.setForeground(new java.awt.Color(255, 255, 255));
+        ClblCourtNo_Book.setText("Court No :");
+
+        jList33.setModel(new javax.swing.AbstractListModel<String>() {
+            String[] strings = { "Court A", "Court B", "Court C" };
+            public int getSize() { return strings.length; }
+            public String getElementAt(int i) { return strings[i]; }
+        });
+        CscrlCourtNo_Book.setViewportView(jList33);
+
+        CbtnBook.setText("Book");
+
+        javax.swing.GroupLayout CpnlBookFormLayout = new javax.swing.GroupLayout(CpnlBookForm);
+        CpnlBookForm.setLayout(CpnlBookFormLayout);
+        CpnlBookFormLayout.setHorizontalGroup(
+            CpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(CpnlBookFormLayout.createSequentialGroup()
+                .addGap(34, 34, 34)
+                .addGroup(CpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(CpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addGroup(CpnlBookFormLayout.createSequentialGroup()
+                            .addComponent(ClblCourtNo_Book)
+                            .addGap(34, 34, 34)
+                            .addGroup(CpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(CbtnBook)
+                                .addComponent(CscrlCourtNo_Book, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(ClblBookFormTittle)
+                        .addGroup(CpnlBookFormLayout.createSequentialGroup()
+                            .addComponent(ClblReason)
+                            .addGap(42, 42, 42)
+                            .addComponent(CscrlReason, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(CpnlBookFormLayout.createSequentialGroup()
+                            .addComponent(ClblTime_Book)
+                            .addGap(18, 18, 18)
+                            .addComponent(CspnrTime_Book)
+                            .addGap(30, 30, 30)))
+                    .addGroup(CpnlBookFormLayout.createSequentialGroup()
+                        .addGroup(CpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(ClblDate_Book)
+                            .addGroup(CpnlBookFormLayout.createSequentialGroup()
+                                .addGap(91, 91, 91)
+                                .addComponent(CspnrDate_Book, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        CpnlBookFormLayout.setVerticalGroup(
+            CpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(CpnlBookFormLayout.createSequentialGroup()
+                .addGap(15, 15, 15)
+                .addComponent(ClblBookFormTittle)
+                .addGap(25, 25, 25)
+                .addGroup(CpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(CscrlReason, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(ClblReason))
+                .addGap(19, 19, 19)
+                .addGroup(CpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(ClblDate_Book)
+                    .addComponent(CspnrDate_Book, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(CpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(ClblTime_Book)
+                    .addComponent(CspnrTime_Book, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(CpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(ClblCourtNo_Book)
+                    .addComponent(CscrlCourtNo_Book, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addComponent(CbtnBook)
+                .addContainerGap(28, Short.MAX_VALUE))
+        );
 
         javax.swing.GroupLayout pnlCricketMainLayout = new javax.swing.GroupLayout(pnlCricketMain);
         pnlCricketMain.setLayout(pnlCricketMainLayout);
         pnlCricketMainLayout.setHorizontalGroup(
             pnlCricketMainLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(CpnlTittleBar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(pnlCricketMainLayout.createSequentialGroup()
-                .addGap(246, 246, 246)
-                .addComponent(jLabel5)
-                .addContainerGap(273, Short.MAX_VALUE))
+                .addContainerGap()
+                .addGroup(pnlCricketMainLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(CpnlCheckForm, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(CpnlBookForm, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap())
         );
         pnlCricketMainLayout.setVerticalGroup(
             pnlCricketMainLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(pnlCricketMainLayout.createSequentialGroup()
-                .addGap(281, 281, 281)
-                .addComponent(jLabel5)
-                .addContainerGap(303, Short.MAX_VALUE))
+                .addGap(46, 46, 46)
+                .addComponent(CpnlTittleBar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(CpnlCheckForm, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(CpnlBookForm, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
         );
 
         pnlContent.add(pnlCricketMain, "card2");
 
-        jLabel6.setText("Football");
+        FpnlCheckForm.setBackground(new java.awt.Color(153, 153, 153));
+
+        FlblCheckFormTittle.setBackground(new java.awt.Color(255, 255, 255));
+        FlblCheckFormTittle.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        FlblCheckFormTittle.setForeground(new java.awt.Color(255, 255, 255));
+        FlblCheckFormTittle.setText("Check Availability");
+
+        FlblDate_Check.setForeground(new java.awt.Color(255, 255, 255));
+        FlblDate_Check.setText("Chose Date :");
+
+        FlblTime_Check.setForeground(new java.awt.Color(255, 255, 255));
+        FlblTime_Check.setText("Chose Time :");
+
+        FbtnCheck.setText("Check");
+
+        FlblAvailability.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        FlblAvailability.setForeground(new java.awt.Color(0, 255, 0));
+        FlblAvailability.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        FlblAvailability.setText("Available !");
+
+        FlblCourtNo_Check.setForeground(new java.awt.Color(255, 255, 255));
+        FlblCourtNo_Check.setText("Court No :");
+
+        jList34.setModel(new javax.swing.AbstractListModel<String>() {
+            String[] strings = { "Court A", "Court B", "Court C" };
+            public int getSize() { return strings.length; }
+            public String getElementAt(int i) { return strings[i]; }
+        });
+        FscrlCourtNo_Check.setViewportView(jList34);
+
+        javax.swing.GroupLayout FpnlCheckFormLayout = new javax.swing.GroupLayout(FpnlCheckForm);
+        FpnlCheckForm.setLayout(FpnlCheckFormLayout);
+        FpnlCheckFormLayout.setHorizontalGroup(
+            FpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(FpnlCheckFormLayout.createSequentialGroup()
+                .addGap(31, 31, 31)
+                .addGroup(FpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(FlblCheckFormTittle)
+                    .addGroup(FpnlCheckFormLayout.createSequentialGroup()
+                        .addGroup(FpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(FlblDate_Check)
+                            .addComponent(FlblCourtNo_Check))
+                        .addGap(18, 18, 18)
+                        .addGroup(FpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(FpnlCheckFormLayout.createSequentialGroup()
+                                .addComponent(FspnrDate_Check, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(28, 28, 28)
+                                .addComponent(FlblTime_Check))
+                            .addComponent(FscrlCourtNo_Check, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addGroup(FpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(FbtnCheck)
+                            .addComponent(FspnrTime_Check, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addContainerGap(109, Short.MAX_VALUE))
+            .addGroup(FpnlCheckFormLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(FlblAvailability, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+        FpnlCheckFormLayout.setVerticalGroup(
+            FpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(FpnlCheckFormLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(FlblCheckFormTittle)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(FpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(FlblDate_Check)
+                    .addComponent(FspnrDate_Check, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(FlblTime_Check)
+                    .addComponent(FspnrTime_Check, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(FpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(FpnlCheckFormLayout.createSequentialGroup()
+                        .addGroup(FpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(FscrlCourtNo_Check, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(FlblCourtNo_Check))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(FlblAvailability))
+                    .addGroup(FpnlCheckFormLayout.createSequentialGroup()
+                        .addComponent(FbtnCheck)
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addContainerGap())
+        );
+
+        FpnlBookForm.setBackground(new java.awt.Color(153, 153, 153));
+
+        FlblBookFormTittle.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        FlblBookFormTittle.setForeground(new java.awt.Color(255, 255, 255));
+        FlblBookFormTittle.setText("Make a Booking");
+
+        FlblReason.setForeground(new java.awt.Color(255, 255, 255));
+        FlblReason.setText("Reason :");
+
+        jList35.setModel(new javax.swing.AbstractListModel<String>() {
+            String[] strings = { "Personal Practice", "Team Practice", "Friendly Match", "Compition" };
+            public int getSize() { return strings.length; }
+            public String getElementAt(int i) { return strings[i]; }
+        });
+        FscrlReason.setViewportView(jList35);
+
+        FlblDate_Book.setForeground(new java.awt.Color(255, 255, 255));
+        FlblDate_Book.setText("Chose Date :");
+
+        FlblTime_Book.setForeground(new java.awt.Color(255, 255, 255));
+        FlblTime_Book.setText("Chose Time :");
+
+        FlblCourtNo_Book.setForeground(new java.awt.Color(255, 255, 255));
+        FlblCourtNo_Book.setText("Court No :");
+
+        jList36.setModel(new javax.swing.AbstractListModel<String>() {
+            String[] strings = { "Court A", "Court B", "Court C" };
+            public int getSize() { return strings.length; }
+            public String getElementAt(int i) { return strings[i]; }
+        });
+        FscrlCourtNo_Book.setViewportView(jList36);
+
+        FbtnBook.setText("Book");
+
+        javax.swing.GroupLayout FpnlBookFormLayout = new javax.swing.GroupLayout(FpnlBookForm);
+        FpnlBookForm.setLayout(FpnlBookFormLayout);
+        FpnlBookFormLayout.setHorizontalGroup(
+            FpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(FpnlBookFormLayout.createSequentialGroup()
+                .addGap(34, 34, 34)
+                .addGroup(FpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(FpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addGroup(FpnlBookFormLayout.createSequentialGroup()
+                            .addComponent(FlblCourtNo_Book)
+                            .addGap(34, 34, 34)
+                            .addGroup(FpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(FbtnBook)
+                                .addComponent(FscrlCourtNo_Book, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(FlblBookFormTittle)
+                        .addGroup(FpnlBookFormLayout.createSequentialGroup()
+                            .addComponent(FlblReason)
+                            .addGap(42, 42, 42)
+                            .addComponent(FscrlReason, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(FpnlBookFormLayout.createSequentialGroup()
+                            .addComponent(FlblTime_Book)
+                            .addGap(18, 18, 18)
+                            .addComponent(FspnrTime_Book)
+                            .addGap(30, 30, 30)))
+                    .addGroup(FpnlBookFormLayout.createSequentialGroup()
+                        .addGroup(FpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(FlblDate_Book)
+                            .addGroup(FpnlBookFormLayout.createSequentialGroup()
+                                .addGap(91, 91, 91)
+                                .addComponent(FspnrDate_Book, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        FpnlBookFormLayout.setVerticalGroup(
+            FpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(FpnlBookFormLayout.createSequentialGroup()
+                .addGap(15, 15, 15)
+                .addComponent(FlblBookFormTittle)
+                .addGap(25, 25, 25)
+                .addGroup(FpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(FscrlReason, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(FlblReason))
+                .addGap(18, 18, 18)
+                .addGroup(FpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(FlblDate_Book)
+                    .addComponent(FspnrDate_Book, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(FpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(FlblTime_Book)
+                    .addComponent(FspnrTime_Book, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(FpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(FlblCourtNo_Book)
+                    .addComponent(FscrlCourtNo_Book, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addComponent(FbtnBook)
+                .addContainerGap(29, Short.MAX_VALUE))
+        );
+
+        FpnlTittleBar.setBackground(new java.awt.Color(110, 88, 222));
+
+        FlblPath.setBackground(new java.awt.Color(255, 255, 255));
+        FlblPath.setForeground(new java.awt.Color(255, 255, 255));
+        FlblPath.setText("Home/");
+
+        FlblSection.setBackground(new java.awt.Color(255, 255, 255));
+        FlblSection.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        FlblSection.setForeground(new java.awt.Color(255, 255, 255));
+        FlblSection.setText("Football");
+
+        javax.swing.GroupLayout FpnlTittleBarLayout = new javax.swing.GroupLayout(FpnlTittleBar);
+        FpnlTittleBar.setLayout(FpnlTittleBarLayout);
+        FpnlTittleBarLayout.setHorizontalGroup(
+            FpnlTittleBarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(FpnlTittleBarLayout.createSequentialGroup()
+                .addGap(37, 37, 37)
+                .addGroup(FpnlTittleBarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(FlblSection)
+                    .addComponent(FlblPath))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        FpnlTittleBarLayout.setVerticalGroup(
+            FpnlTittleBarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(FpnlTittleBarLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(FlblPath)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(FlblSection)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
 
         javax.swing.GroupLayout pnlFootballMainLayout = new javax.swing.GroupLayout(pnlFootballMain);
         pnlFootballMain.setLayout(pnlFootballMainLayout);
         pnlFootballMainLayout.setHorizontalGroup(
             pnlFootballMainLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(FpnlTittleBar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(pnlFootballMainLayout.createSequentialGroup()
-                .addGap(246, 246, 246)
-                .addComponent(jLabel6)
-                .addContainerGap(270, Short.MAX_VALUE))
+                .addContainerGap()
+                .addGroup(pnlFootballMainLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(FpnlCheckForm, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(FpnlBookForm, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap())
         );
         pnlFootballMainLayout.setVerticalGroup(
             pnlFootballMainLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(pnlFootballMainLayout.createSequentialGroup()
-                .addGap(281, 281, 281)
-                .addComponent(jLabel6)
-                .addContainerGap(303, Short.MAX_VALUE))
+                .addGap(46, 46, 46)
+                .addComponent(FpnlTittleBar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(FpnlCheckForm, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(FpnlBookForm, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
         );
 
         pnlContent.add(pnlFootballMain, "card2");
 
-        jLabel7.setText("Hokey");
+        HpnlCheckForm.setBackground(new java.awt.Color(153, 153, 153));
+
+        HlblCheckFormTittle.setBackground(new java.awt.Color(255, 255, 255));
+        HlblCheckFormTittle.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        HlblCheckFormTittle.setForeground(new java.awt.Color(255, 255, 255));
+        HlblCheckFormTittle.setText("Check Availability");
+
+        HlblDate_Check.setForeground(new java.awt.Color(255, 255, 255));
+        HlblDate_Check.setText("Chose Date :");
+
+        HlblTime_Check.setForeground(new java.awt.Color(255, 255, 255));
+        HlblTime_Check.setText("Chose Time :");
+
+        HbtnCheck.setText("Check");
+
+        HlblAvailability.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        HlblAvailability.setForeground(new java.awt.Color(0, 255, 0));
+        HlblAvailability.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        HlblAvailability.setText("Available !");
+
+        HlblCourtNo_Check.setForeground(new java.awt.Color(255, 255, 255));
+        HlblCourtNo_Check.setText("Court No :");
+
+        jList37.setModel(new javax.swing.AbstractListModel<String>() {
+            String[] strings = { "Court A", "Court B", "Court C" };
+            public int getSize() { return strings.length; }
+            public String getElementAt(int i) { return strings[i]; }
+        });
+        HscrlCourtNo_Check.setViewportView(jList37);
+
+        javax.swing.GroupLayout HpnlCheckFormLayout = new javax.swing.GroupLayout(HpnlCheckForm);
+        HpnlCheckForm.setLayout(HpnlCheckFormLayout);
+        HpnlCheckFormLayout.setHorizontalGroup(
+            HpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(HpnlCheckFormLayout.createSequentialGroup()
+                .addGap(31, 31, 31)
+                .addGroup(HpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(HlblCheckFormTittle)
+                    .addGroup(HpnlCheckFormLayout.createSequentialGroup()
+                        .addGroup(HpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(HlblDate_Check)
+                            .addComponent(HlblCourtNo_Check))
+                        .addGap(18, 18, 18)
+                        .addGroup(HpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(HpnlCheckFormLayout.createSequentialGroup()
+                                .addComponent(HspnrDate_Check, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(28, 28, 28)
+                                .addComponent(HlblTime_Check))
+                            .addComponent(HscrlCourtNo_Check, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addGroup(HpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(HbtnCheck)
+                            .addComponent(HspnrTime_Check, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addContainerGap(109, Short.MAX_VALUE))
+            .addGroup(HpnlCheckFormLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(HlblAvailability, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+        HpnlCheckFormLayout.setVerticalGroup(
+            HpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(HpnlCheckFormLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(HlblCheckFormTittle)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(HpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(HlblDate_Check)
+                    .addComponent(HspnrDate_Check, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(HlblTime_Check)
+                    .addComponent(HspnrTime_Check, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(HpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(HpnlCheckFormLayout.createSequentialGroup()
+                        .addGroup(HpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(HscrlCourtNo_Check, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(HlblCourtNo_Check))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(HlblAvailability))
+                    .addGroup(HpnlCheckFormLayout.createSequentialGroup()
+                        .addComponent(HbtnCheck)
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addContainerGap())
+        );
+
+        HpnlBookForm.setBackground(new java.awt.Color(153, 153, 153));
+
+        HlblBookFormTittle.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        HlblBookFormTittle.setForeground(new java.awt.Color(255, 255, 255));
+        HlblBookFormTittle.setText("Make a Booking");
+
+        HlblReason.setForeground(new java.awt.Color(255, 255, 255));
+        HlblReason.setText("Reason :");
+
+        jList38.setModel(new javax.swing.AbstractListModel<String>() {
+            String[] strings = { "Personal Practice", "Team Practice", "Friendly Match", "Compition" };
+            public int getSize() { return strings.length; }
+            public String getElementAt(int i) { return strings[i]; }
+        });
+        HscrlReason.setViewportView(jList38);
+
+        HlblDate_Book.setForeground(new java.awt.Color(255, 255, 255));
+        HlblDate_Book.setText("Chose Date :");
+
+        HlblTime_Book.setForeground(new java.awt.Color(255, 255, 255));
+        HlblTime_Book.setText("Chose Time :");
+
+        HlblCourtNo_Book.setForeground(new java.awt.Color(255, 255, 255));
+        HlblCourtNo_Book.setText("Court No :");
+
+        jList39.setModel(new javax.swing.AbstractListModel<String>() {
+            String[] strings = { "Court A", "Court B", "Court C" };
+            public int getSize() { return strings.length; }
+            public String getElementAt(int i) { return strings[i]; }
+        });
+        HscrlCourtNo_Book.setViewportView(jList39);
+
+        HbtnBook.setText("Book");
+
+        javax.swing.GroupLayout HpnlBookFormLayout = new javax.swing.GroupLayout(HpnlBookForm);
+        HpnlBookForm.setLayout(HpnlBookFormLayout);
+        HpnlBookFormLayout.setHorizontalGroup(
+            HpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(HpnlBookFormLayout.createSequentialGroup()
+                .addGap(34, 34, 34)
+                .addGroup(HpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(HpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addGroup(HpnlBookFormLayout.createSequentialGroup()
+                            .addComponent(HlblCourtNo_Book)
+                            .addGap(34, 34, 34)
+                            .addGroup(HpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(HbtnBook)
+                                .addComponent(HscrlCourtNo_Book, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(HlblBookFormTittle)
+                        .addGroup(HpnlBookFormLayout.createSequentialGroup()
+                            .addComponent(HlblReason)
+                            .addGap(42, 42, 42)
+                            .addComponent(HscrlReason, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(HpnlBookFormLayout.createSequentialGroup()
+                            .addComponent(HlblTime_Book)
+                            .addGap(18, 18, 18)
+                            .addComponent(HspnrTime_Book)
+                            .addGap(30, 30, 30)))
+                    .addGroup(HpnlBookFormLayout.createSequentialGroup()
+                        .addGroup(HpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(HlblDate_Book)
+                            .addGroup(HpnlBookFormLayout.createSequentialGroup()
+                                .addGap(91, 91, 91)
+                                .addComponent(HspnrDate_Book, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        HpnlBookFormLayout.setVerticalGroup(
+            HpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(HpnlBookFormLayout.createSequentialGroup()
+                .addGap(15, 15, 15)
+                .addComponent(HlblBookFormTittle)
+                .addGap(25, 25, 25)
+                .addGroup(HpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(HscrlReason, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(HlblReason))
+                .addGap(19, 19, 19)
+                .addGroup(HpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(HlblDate_Book)
+                    .addComponent(HspnrDate_Book, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(HpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(HlblTime_Book)
+                    .addComponent(HspnrTime_Book, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(HpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(HlblCourtNo_Book)
+                    .addComponent(HscrlCourtNo_Book, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addComponent(HbtnBook)
+                .addContainerGap(28, Short.MAX_VALUE))
+        );
+
+        HpnlTittleBar.setBackground(new java.awt.Color(110, 88, 222));
+
+        HlblPath.setBackground(new java.awt.Color(255, 255, 255));
+        HlblPath.setForeground(new java.awt.Color(255, 255, 255));
+        HlblPath.setText("Home/");
+
+        HlblSection.setBackground(new java.awt.Color(255, 255, 255));
+        HlblSection.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        HlblSection.setForeground(new java.awt.Color(255, 255, 255));
+        HlblSection.setText("Hokey");
+
+        javax.swing.GroupLayout HpnlTittleBarLayout = new javax.swing.GroupLayout(HpnlTittleBar);
+        HpnlTittleBar.setLayout(HpnlTittleBarLayout);
+        HpnlTittleBarLayout.setHorizontalGroup(
+            HpnlTittleBarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(HpnlTittleBarLayout.createSequentialGroup()
+                .addGap(37, 37, 37)
+                .addGroup(HpnlTittleBarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(HlblSection)
+                    .addComponent(HlblPath))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        HpnlTittleBarLayout.setVerticalGroup(
+            HpnlTittleBarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(HpnlTittleBarLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(HlblPath)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(HlblSection)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
 
         javax.swing.GroupLayout pnlHokeyMainLayout = new javax.swing.GroupLayout(pnlHokeyMain);
         pnlHokeyMain.setLayout(pnlHokeyMainLayout);
         pnlHokeyMainLayout.setHorizontalGroup(
             pnlHokeyMainLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(HpnlTittleBar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(pnlHokeyMainLayout.createSequentialGroup()
-                .addGap(246, 246, 246)
-                .addComponent(jLabel7)
-                .addContainerGap(279, Short.MAX_VALUE))
+                .addContainerGap()
+                .addGroup(pnlHokeyMainLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(HpnlCheckForm, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(HpnlBookForm, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap())
         );
         pnlHokeyMainLayout.setVerticalGroup(
             pnlHokeyMainLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(pnlHokeyMainLayout.createSequentialGroup()
-                .addGap(281, 281, 281)
-                .addComponent(jLabel7)
-                .addContainerGap(303, Short.MAX_VALUE))
+                .addGap(46, 46, 46)
+                .addComponent(HpnlTittleBar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(HpnlCheckForm, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(HpnlBookForm, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
         );
 
         pnlContent.add(pnlHokeyMain, "card2");
 
-        jLabel8.setText("Netball");
+        RpnlCheckForm.setBackground(new java.awt.Color(153, 153, 153));
 
-        javax.swing.GroupLayout pnlNetballMainLayout = new javax.swing.GroupLayout(pnlNetballMain);
-        pnlNetballMain.setLayout(pnlNetballMainLayout);
-        pnlNetballMainLayout.setHorizontalGroup(
-            pnlNetballMainLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(pnlNetballMainLayout.createSequentialGroup()
-                .addGap(246, 246, 246)
-                .addComponent(jLabel8)
-                .addContainerGap(275, Short.MAX_VALUE))
+        RlblCheckFormTittle.setBackground(new java.awt.Color(255, 255, 255));
+        RlblCheckFormTittle.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        RlblCheckFormTittle.setForeground(new java.awt.Color(255, 255, 255));
+        RlblCheckFormTittle.setText("Check Availability");
+
+        RlblDate_Check.setForeground(new java.awt.Color(255, 255, 255));
+        RlblDate_Check.setText("Chose Date :");
+
+        RlblTime_Check.setForeground(new java.awt.Color(255, 255, 255));
+        RlblTime_Check.setText("Chose Time :");
+
+        RbtnCheck.setText("Check");
+
+        RlblAvailability.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        RlblAvailability.setForeground(new java.awt.Color(0, 255, 0));
+        RlblAvailability.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        RlblAvailability.setText("Available !");
+
+        RlblCourtNo_Check.setForeground(new java.awt.Color(255, 255, 255));
+        RlblCourtNo_Check.setText("Court No :");
+
+        jList40.setModel(new javax.swing.AbstractListModel<String>() {
+            String[] strings = { "Court A", "Court B", "Court C" };
+            public int getSize() { return strings.length; }
+            public String getElementAt(int i) { return strings[i]; }
+        });
+        RscrlCourtNo_Check.setViewportView(jList40);
+
+        javax.swing.GroupLayout RpnlCheckFormLayout = new javax.swing.GroupLayout(RpnlCheckForm);
+        RpnlCheckForm.setLayout(RpnlCheckFormLayout);
+        RpnlCheckFormLayout.setHorizontalGroup(
+            RpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(RpnlCheckFormLayout.createSequentialGroup()
+                .addGap(31, 31, 31)
+                .addGroup(RpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(RlblCheckFormTittle)
+                    .addGroup(RpnlCheckFormLayout.createSequentialGroup()
+                        .addGroup(RpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(RlblDate_Check)
+                            .addComponent(RlblCourtNo_Check))
+                        .addGap(18, 18, 18)
+                        .addGroup(RpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(RpnlCheckFormLayout.createSequentialGroup()
+                                .addComponent(RspnrDate_Check, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(28, 28, 28)
+                                .addComponent(RlblTime_Check))
+                            .addComponent(RscrlCourtNo_Check, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addGroup(RpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(RbtnCheck)
+                            .addComponent(RspnrTime_Check, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addContainerGap(109, Short.MAX_VALUE))
+            .addGroup(RpnlCheckFormLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(RlblAvailability, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
         );
-        pnlNetballMainLayout.setVerticalGroup(
-            pnlNetballMainLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(pnlNetballMainLayout.createSequentialGroup()
-                .addGap(281, 281, 281)
-                .addComponent(jLabel8)
-                .addContainerGap(303, Short.MAX_VALUE))
+        RpnlCheckFormLayout.setVerticalGroup(
+            RpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(RpnlCheckFormLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(RlblCheckFormTittle)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(RpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(RlblDate_Check)
+                    .addComponent(RspnrDate_Check, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(RlblTime_Check)
+                    .addComponent(RspnrTime_Check, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(RpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(RpnlCheckFormLayout.createSequentialGroup()
+                        .addGroup(RpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(RscrlCourtNo_Check, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(RlblCourtNo_Check))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(RlblAvailability))
+                    .addGroup(RpnlCheckFormLayout.createSequentialGroup()
+                        .addComponent(RbtnCheck)
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addContainerGap())
         );
 
-        pnlContent.add(pnlNetballMain, "card2");
+        RpnlBookForm.setBackground(new java.awt.Color(153, 153, 153));
 
-        jLabel9.setText("Ruger");
+        RlblBookFormTittle.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        RlblBookFormTittle.setForeground(new java.awt.Color(255, 255, 255));
+        RlblBookFormTittle.setText("Make a Booking");
+
+        RlblReason.setForeground(new java.awt.Color(255, 255, 255));
+        RlblReason.setText("Reason :");
+
+        jList41.setModel(new javax.swing.AbstractListModel<String>() {
+            String[] strings = { "Personal Practice", "Team Practice", "Friendly Match", "Compition" };
+            public int getSize() { return strings.length; }
+            public String getElementAt(int i) { return strings[i]; }
+        });
+        RscrlReason.setViewportView(jList41);
+
+        RlblDate_Book.setForeground(new java.awt.Color(255, 255, 255));
+        RlblDate_Book.setText("Chose Date :");
+
+        RlblTime_Book.setForeground(new java.awt.Color(255, 255, 255));
+        RlblTime_Book.setText("Chose Time :");
+
+        RlblCourtNo_Book.setForeground(new java.awt.Color(255, 255, 255));
+        RlblCourtNo_Book.setText("Court No :");
+
+        jList42.setModel(new javax.swing.AbstractListModel<String>() {
+            String[] strings = { "Court A", "Court B", "Court C" };
+            public int getSize() { return strings.length; }
+            public String getElementAt(int i) { return strings[i]; }
+        });
+        RscrlCourtNo_Book.setViewportView(jList42);
+
+        RbtnBook.setText("Book");
+
+        javax.swing.GroupLayout RpnlBookFormLayout = new javax.swing.GroupLayout(RpnlBookForm);
+        RpnlBookForm.setLayout(RpnlBookFormLayout);
+        RpnlBookFormLayout.setHorizontalGroup(
+            RpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(RpnlBookFormLayout.createSequentialGroup()
+                .addGap(34, 34, 34)
+                .addGroup(RpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(RpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addGroup(RpnlBookFormLayout.createSequentialGroup()
+                            .addComponent(RlblCourtNo_Book)
+                            .addGap(34, 34, 34)
+                            .addGroup(RpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(RbtnBook)
+                                .addComponent(RscrlCourtNo_Book, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(RlblBookFormTittle)
+                        .addGroup(RpnlBookFormLayout.createSequentialGroup()
+                            .addComponent(RlblReason)
+                            .addGap(42, 42, 42)
+                            .addComponent(RscrlReason, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(RpnlBookFormLayout.createSequentialGroup()
+                            .addComponent(RlblTime_Book)
+                            .addGap(18, 18, 18)
+                            .addComponent(RspnrTime_Book)
+                            .addGap(30, 30, 30)))
+                    .addGroup(RpnlBookFormLayout.createSequentialGroup()
+                        .addGroup(RpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(RlblDate_Book)
+                            .addGroup(RpnlBookFormLayout.createSequentialGroup()
+                                .addGap(91, 91, 91)
+                                .addComponent(RspnrDate_Book, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        RpnlBookFormLayout.setVerticalGroup(
+            RpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(RpnlBookFormLayout.createSequentialGroup()
+                .addGap(15, 15, 15)
+                .addComponent(RlblBookFormTittle)
+                .addGap(25, 25, 25)
+                .addGroup(RpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(RscrlReason, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(RlblReason))
+                .addGap(19, 19, 19)
+                .addGroup(RpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(RlblDate_Book)
+                    .addComponent(RspnrDate_Book, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(RpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(RlblTime_Book)
+                    .addComponent(RspnrTime_Book, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(RpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(RlblCourtNo_Book)
+                    .addComponent(RscrlCourtNo_Book, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addComponent(RbtnBook)
+                .addContainerGap(28, Short.MAX_VALUE))
+        );
+
+        RpnlTittleBar.setBackground(new java.awt.Color(110, 88, 222));
+
+        RlblPath.setBackground(new java.awt.Color(255, 255, 255));
+        RlblPath.setForeground(new java.awt.Color(255, 255, 255));
+        RlblPath.setText("Home/");
+
+        RlblSection.setBackground(new java.awt.Color(255, 255, 255));
+        RlblSection.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        RlblSection.setForeground(new java.awt.Color(255, 255, 255));
+        RlblSection.setText("Ruger");
+
+        javax.swing.GroupLayout RpnlTittleBarLayout = new javax.swing.GroupLayout(RpnlTittleBar);
+        RpnlTittleBar.setLayout(RpnlTittleBarLayout);
+        RpnlTittleBarLayout.setHorizontalGroup(
+            RpnlTittleBarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(RpnlTittleBarLayout.createSequentialGroup()
+                .addGap(37, 37, 37)
+                .addGroup(RpnlTittleBarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(RlblSection)
+                    .addComponent(RlblPath))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        RpnlTittleBarLayout.setVerticalGroup(
+            RpnlTittleBarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(RpnlTittleBarLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(RlblPath)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(RlblSection)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
 
         javax.swing.GroupLayout pnlRugerMainLayout = new javax.swing.GroupLayout(pnlRugerMain);
         pnlRugerMain.setLayout(pnlRugerMainLayout);
         pnlRugerMainLayout.setHorizontalGroup(
             pnlRugerMainLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(RpnlTittleBar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(pnlRugerMainLayout.createSequentialGroup()
-                .addGap(246, 246, 246)
-                .addComponent(jLabel9)
-                .addContainerGap(280, Short.MAX_VALUE))
+                .addContainerGap()
+                .addGroup(pnlRugerMainLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(RpnlCheckForm, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(RpnlBookForm, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap())
         );
         pnlRugerMainLayout.setVerticalGroup(
             pnlRugerMainLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(pnlRugerMainLayout.createSequentialGroup()
-                .addGap(281, 281, 281)
-                .addComponent(jLabel9)
-                .addContainerGap(303, Short.MAX_VALUE))
+                .addGap(46, 46, 46)
+                .addComponent(RpnlTittleBar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(RpnlCheckForm, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(RpnlBookForm, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
         );
 
         pnlContent.add(pnlRugerMain, "card2");
 
-        jLabel10.setText("Tabletenis");
+        TTpnlCheckForm.setBackground(new java.awt.Color(153, 153, 153));
+
+        TTlblCheckFormTittle.setBackground(new java.awt.Color(255, 255, 255));
+        TTlblCheckFormTittle.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        TTlblCheckFormTittle.setForeground(new java.awt.Color(255, 255, 255));
+        TTlblCheckFormTittle.setText("Check Availability");
+
+        TTlblDate_Check.setForeground(new java.awt.Color(255, 255, 255));
+        TTlblDate_Check.setText("Chose Date :");
+
+        TTlblTime_Check.setForeground(new java.awt.Color(255, 255, 255));
+        TTlblTime_Check.setText("Chose Time :");
+
+        TTbtnCheck.setText("Check");
+
+        TTlblAvailability.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        TTlblAvailability.setForeground(new java.awt.Color(0, 255, 0));
+        TTlblAvailability.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        TTlblAvailability.setText("Available !");
+
+        TTlblCourtNo_Check.setForeground(new java.awt.Color(255, 255, 255));
+        TTlblCourtNo_Check.setText("Court No :");
+
+        jList43.setModel(new javax.swing.AbstractListModel<String>() {
+            String[] strings = { "Court A", "Court B", "Court C" };
+            public int getSize() { return strings.length; }
+            public String getElementAt(int i) { return strings[i]; }
+        });
+        TTscrlCourtNo_Check.setViewportView(jList43);
+
+        javax.swing.GroupLayout TTpnlCheckFormLayout = new javax.swing.GroupLayout(TTpnlCheckForm);
+        TTpnlCheckForm.setLayout(TTpnlCheckFormLayout);
+        TTpnlCheckFormLayout.setHorizontalGroup(
+            TTpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(TTpnlCheckFormLayout.createSequentialGroup()
+                .addGap(31, 31, 31)
+                .addGroup(TTpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(TTlblCheckFormTittle)
+                    .addGroup(TTpnlCheckFormLayout.createSequentialGroup()
+                        .addGroup(TTpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(TTlblDate_Check)
+                            .addComponent(TTlblCourtNo_Check))
+                        .addGap(18, 18, 18)
+                        .addGroup(TTpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(TTpnlCheckFormLayout.createSequentialGroup()
+                                .addComponent(TTspnrDate_Check, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(28, 28, 28)
+                                .addComponent(TTlblTime_Check))
+                            .addComponent(TTscrlCourtNo_Check, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addGroup(TTpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(TTbtnCheck)
+                            .addComponent(TTspnrTime_Check, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addContainerGap(109, Short.MAX_VALUE))
+            .addGroup(TTpnlCheckFormLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(TTlblAvailability, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+        TTpnlCheckFormLayout.setVerticalGroup(
+            TTpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(TTpnlCheckFormLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(TTlblCheckFormTittle)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(TTpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(TTlblDate_Check)
+                    .addComponent(TTspnrDate_Check, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(TTlblTime_Check)
+                    .addComponent(TTspnrTime_Check, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(TTpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(TTpnlCheckFormLayout.createSequentialGroup()
+                        .addGroup(TTpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(TTscrlCourtNo_Check, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(TTlblCourtNo_Check))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(TTlblAvailability))
+                    .addGroup(TTpnlCheckFormLayout.createSequentialGroup()
+                        .addComponent(TTbtnCheck)
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addContainerGap())
+        );
+
+        TTpnlBookForm.setBackground(new java.awt.Color(153, 153, 153));
+
+        TTlblBookFormTittle.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        TTlblBookFormTittle.setForeground(new java.awt.Color(255, 255, 255));
+        TTlblBookFormTittle.setText("Make a Booking");
+
+        TTlblReason.setForeground(new java.awt.Color(255, 255, 255));
+        TTlblReason.setText("Reason :");
+
+        jList44.setModel(new javax.swing.AbstractListModel<String>() {
+            String[] strings = { "Personal Practice", "Team Practice", "Friendly Match", "Compition" };
+            public int getSize() { return strings.length; }
+            public String getElementAt(int i) { return strings[i]; }
+        });
+        TTscrlReason.setViewportView(jList44);
+
+        TTlblDate_Book.setForeground(new java.awt.Color(255, 255, 255));
+        TTlblDate_Book.setText("Chose Date :");
+
+        TTlblTime_Book.setForeground(new java.awt.Color(255, 255, 255));
+        TTlblTime_Book.setText("Chose Time :");
+
+        TTlblCourtNo_Book.setForeground(new java.awt.Color(255, 255, 255));
+        TTlblCourtNo_Book.setText("Court No :");
+
+        jList45.setModel(new javax.swing.AbstractListModel<String>() {
+            String[] strings = { "Court A", "Court B", "Court C" };
+            public int getSize() { return strings.length; }
+            public String getElementAt(int i) { return strings[i]; }
+        });
+        TTscrlCourtNo_Book.setViewportView(jList45);
+
+        TTbtnBook.setText("Book");
+
+        javax.swing.GroupLayout TTpnlBookFormLayout = new javax.swing.GroupLayout(TTpnlBookForm);
+        TTpnlBookForm.setLayout(TTpnlBookFormLayout);
+        TTpnlBookFormLayout.setHorizontalGroup(
+            TTpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(TTpnlBookFormLayout.createSequentialGroup()
+                .addGap(34, 34, 34)
+                .addGroup(TTpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(TTpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addGroup(TTpnlBookFormLayout.createSequentialGroup()
+                            .addComponent(TTlblCourtNo_Book)
+                            .addGap(34, 34, 34)
+                            .addGroup(TTpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(TTbtnBook)
+                                .addComponent(TTscrlCourtNo_Book, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(TTlblBookFormTittle)
+                        .addGroup(TTpnlBookFormLayout.createSequentialGroup()
+                            .addComponent(TTlblReason)
+                            .addGap(42, 42, 42)
+                            .addComponent(TTscrlReason, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(TTpnlBookFormLayout.createSequentialGroup()
+                            .addComponent(TTlblTime_Book)
+                            .addGap(18, 18, 18)
+                            .addComponent(TTspnrTime_Book)
+                            .addGap(30, 30, 30)))
+                    .addGroup(TTpnlBookFormLayout.createSequentialGroup()
+                        .addGroup(TTpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(TTlblDate_Book)
+                            .addGroup(TTpnlBookFormLayout.createSequentialGroup()
+                                .addGap(91, 91, 91)
+                                .addComponent(TTspnrDate_Book, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        TTpnlBookFormLayout.setVerticalGroup(
+            TTpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(TTpnlBookFormLayout.createSequentialGroup()
+                .addGap(15, 15, 15)
+                .addComponent(TTlblBookFormTittle)
+                .addGap(25, 25, 25)
+                .addGroup(TTpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(TTscrlReason, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(TTlblReason))
+                .addGap(18, 18, 18)
+                .addGroup(TTpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(TTlblDate_Book)
+                    .addComponent(TTspnrDate_Book, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(TTpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(TTlblTime_Book)
+                    .addComponent(TTspnrTime_Book, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(TTpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(TTlblCourtNo_Book)
+                    .addComponent(TTscrlCourtNo_Book, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addComponent(TTbtnBook)
+                .addContainerGap(29, Short.MAX_VALUE))
+        );
+
+        TTpnlTittleBar.setBackground(new java.awt.Color(110, 88, 222));
+
+        TTlblPath.setBackground(new java.awt.Color(255, 255, 255));
+        TTlblPath.setForeground(new java.awt.Color(255, 255, 255));
+        TTlblPath.setText("Home/");
+
+        TTlblSection.setBackground(new java.awt.Color(255, 255, 255));
+        TTlblSection.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        TTlblSection.setForeground(new java.awt.Color(255, 255, 255));
+        TTlblSection.setText("Tabletenis");
+
+        javax.swing.GroupLayout TTpnlTittleBarLayout = new javax.swing.GroupLayout(TTpnlTittleBar);
+        TTpnlTittleBar.setLayout(TTpnlTittleBarLayout);
+        TTpnlTittleBarLayout.setHorizontalGroup(
+            TTpnlTittleBarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(TTpnlTittleBarLayout.createSequentialGroup()
+                .addGap(37, 37, 37)
+                .addGroup(TTpnlTittleBarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(TTlblSection)
+                    .addComponent(TTlblPath))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        TTpnlTittleBarLayout.setVerticalGroup(
+            TTpnlTittleBarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(TTpnlTittleBarLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(TTlblPath)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(TTlblSection)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
 
         javax.swing.GroupLayout pnlTabletenisMainLayout = new javax.swing.GroupLayout(pnlTabletenisMain);
         pnlTabletenisMain.setLayout(pnlTabletenisMainLayout);
         pnlTabletenisMainLayout.setHorizontalGroup(
             pnlTabletenisMainLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(TTpnlTittleBar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(pnlTabletenisMainLayout.createSequentialGroup()
-                .addGap(246, 246, 246)
-                .addComponent(jLabel10)
-                .addContainerGap(255, Short.MAX_VALUE))
+                .addContainerGap()
+                .addGroup(pnlTabletenisMainLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(TTpnlCheckForm, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(TTpnlBookForm, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap())
         );
         pnlTabletenisMainLayout.setVerticalGroup(
             pnlTabletenisMainLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(pnlTabletenisMainLayout.createSequentialGroup()
-                .addGap(281, 281, 281)
-                .addComponent(jLabel10)
-                .addContainerGap(303, Short.MAX_VALUE))
+                .addGap(46, 46, 46)
+                .addComponent(TTpnlTittleBar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(TTpnlCheckForm, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(TTpnlBookForm, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
         );
 
         pnlContent.add(pnlTabletenisMain, "card2");
 
-        jLabel11.setText("Vollyball");
+        VpnlCheckForm.setBackground(new java.awt.Color(153, 153, 153));
+
+        VlblCheckFormTittle.setBackground(new java.awt.Color(255, 255, 255));
+        VlblCheckFormTittle.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        VlblCheckFormTittle.setForeground(new java.awt.Color(255, 255, 255));
+        VlblCheckFormTittle.setText("Check Availability");
+
+        VlblDate_Check.setForeground(new java.awt.Color(255, 255, 255));
+        VlblDate_Check.setText("Chose Date :");
+
+        VlblTime_Check.setForeground(new java.awt.Color(255, 255, 255));
+        VlblTime_Check.setText("Chose Time :");
+
+        VbtnCheck.setText("Check");
+
+        VlblAvailability.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        VlblAvailability.setForeground(new java.awt.Color(0, 255, 0));
+        VlblAvailability.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        VlblAvailability.setText("Available !");
+
+        VlblCourtNo_Check.setForeground(new java.awt.Color(255, 255, 255));
+        VlblCourtNo_Check.setText("Court No :");
+
+        jList46.setModel(new javax.swing.AbstractListModel<String>() {
+            String[] strings = { "Court A", "Court B", "Court C" };
+            public int getSize() { return strings.length; }
+            public String getElementAt(int i) { return strings[i]; }
+        });
+        VscrlCourtNo_Check.setViewportView(jList46);
+
+        javax.swing.GroupLayout VpnlCheckFormLayout = new javax.swing.GroupLayout(VpnlCheckForm);
+        VpnlCheckForm.setLayout(VpnlCheckFormLayout);
+        VpnlCheckFormLayout.setHorizontalGroup(
+            VpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(VpnlCheckFormLayout.createSequentialGroup()
+                .addGap(31, 31, 31)
+                .addGroup(VpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(VlblCheckFormTittle)
+                    .addGroup(VpnlCheckFormLayout.createSequentialGroup()
+                        .addGroup(VpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(VlblDate_Check)
+                            .addComponent(VlblCourtNo_Check))
+                        .addGap(18, 18, 18)
+                        .addGroup(VpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(VpnlCheckFormLayout.createSequentialGroup()
+                                .addComponent(VspnrDate_Check, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(28, 28, 28)
+                                .addComponent(VlblTime_Check))
+                            .addComponent(VscrlCourtNo_Check, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addGroup(VpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(VbtnCheck)
+                            .addComponent(VspnrTime_Check, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addContainerGap(109, Short.MAX_VALUE))
+            .addGroup(VpnlCheckFormLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(VlblAvailability, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+        VpnlCheckFormLayout.setVerticalGroup(
+            VpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(VpnlCheckFormLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(VlblCheckFormTittle)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(VpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(VlblDate_Check)
+                    .addComponent(VspnrDate_Check, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(VlblTime_Check)
+                    .addComponent(VspnrTime_Check, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(VpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(VpnlCheckFormLayout.createSequentialGroup()
+                        .addGroup(VpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(VscrlCourtNo_Check, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(VlblCourtNo_Check))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(VlblAvailability))
+                    .addGroup(VpnlCheckFormLayout.createSequentialGroup()
+                        .addComponent(VbtnCheck)
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addContainerGap())
+        );
+
+        VpnlBookForm.setBackground(new java.awt.Color(153, 153, 153));
+
+        VlblBookFormTittle.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        VlblBookFormTittle.setForeground(new java.awt.Color(255, 255, 255));
+        VlblBookFormTittle.setText("Make a Booking");
+
+        VlblReason.setForeground(new java.awt.Color(255, 255, 255));
+        VlblReason.setText("Reason :");
+
+        jList47.setModel(new javax.swing.AbstractListModel<String>() {
+            String[] strings = { "Personal Practice", "Team Practice", "Friendly Match", "Compition" };
+            public int getSize() { return strings.length; }
+            public String getElementAt(int i) { return strings[i]; }
+        });
+        VscrlReason.setViewportView(jList47);
+
+        VlblDate_Book.setForeground(new java.awt.Color(255, 255, 255));
+        VlblDate_Book.setText("Chose Date :");
+
+        VlblTime_Book.setForeground(new java.awt.Color(255, 255, 255));
+        VlblTime_Book.setText("Chose Time :");
+
+        VlblCourtNo_Book.setForeground(new java.awt.Color(255, 255, 255));
+        VlblCourtNo_Book.setText("Court No :");
+
+        jList48.setModel(new javax.swing.AbstractListModel<String>() {
+            String[] strings = { "Court A", "Court B", "Court C" };
+            public int getSize() { return strings.length; }
+            public String getElementAt(int i) { return strings[i]; }
+        });
+        VscrlCourtNo_Book.setViewportView(jList48);
+
+        VbtnBook.setText("Book");
+
+        javax.swing.GroupLayout VpnlBookFormLayout = new javax.swing.GroupLayout(VpnlBookForm);
+        VpnlBookForm.setLayout(VpnlBookFormLayout);
+        VpnlBookFormLayout.setHorizontalGroup(
+            VpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(VpnlBookFormLayout.createSequentialGroup()
+                .addGap(34, 34, 34)
+                .addGroup(VpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(VpnlBookFormLayout.createSequentialGroup()
+                        .addComponent(VlblTime_Book)
+                        .addGap(18, 18, 18)
+                        .addComponent(VspnrTime_Book, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(VpnlBookFormLayout.createSequentialGroup()
+                        .addGroup(VpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(VlblDate_Book)
+                            .addComponent(VlblCourtNo_Book))
+                        .addGroup(VpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(VpnlBookFormLayout.createSequentialGroup()
+                                .addGap(18, 18, 18)
+                                .addGroup(VpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(VbtnBook)
+                                    .addComponent(VscrlCourtNo_Book, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addGroup(VpnlBookFormLayout.createSequentialGroup()
+                                .addGap(20, 20, 20)
+                                .addComponent(VspnrDate_Book, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                    .addComponent(VlblBookFormTittle)
+                    .addGroup(VpnlBookFormLayout.createSequentialGroup()
+                        .addComponent(VlblReason)
+                        .addGap(42, 42, 42)
+                        .addComponent(VscrlReason, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        VpnlBookFormLayout.setVerticalGroup(
+            VpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(VpnlBookFormLayout.createSequentialGroup()
+                .addGap(15, 15, 15)
+                .addComponent(VlblBookFormTittle)
+                .addGap(25, 25, 25)
+                .addGroup(VpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(VscrlReason, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(VlblReason))
+                .addGap(27, 27, 27)
+                .addGroup(VpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(VlblDate_Book)
+                    .addComponent(VspnrDate_Book, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(VpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(VlblTime_Book)
+                    .addComponent(VspnrTime_Book, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(27, 27, 27)
+                .addGroup(VpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(VlblCourtNo_Book)
+                    .addComponent(VscrlCourtNo_Book, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addComponent(VbtnBook)
+                .addContainerGap(11, Short.MAX_VALUE))
+        );
+
+        VpnlTittleBar.setBackground(new java.awt.Color(110, 88, 222));
+
+        VlblPath.setBackground(new java.awt.Color(255, 255, 255));
+        VlblPath.setForeground(new java.awt.Color(255, 255, 255));
+        VlblPath.setText("Home/");
+
+        VlblSection.setBackground(new java.awt.Color(255, 255, 255));
+        VlblSection.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        VlblSection.setForeground(new java.awt.Color(255, 255, 255));
+        VlblSection.setText("Vallyball");
+
+        javax.swing.GroupLayout VpnlTittleBarLayout = new javax.swing.GroupLayout(VpnlTittleBar);
+        VpnlTittleBar.setLayout(VpnlTittleBarLayout);
+        VpnlTittleBarLayout.setHorizontalGroup(
+            VpnlTittleBarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(VpnlTittleBarLayout.createSequentialGroup()
+                .addGap(37, 37, 37)
+                .addGroup(VpnlTittleBarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(VlblSection)
+                    .addComponent(VlblPath))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        VpnlTittleBarLayout.setVerticalGroup(
+            VpnlTittleBarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(VpnlTittleBarLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(VlblPath)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(VlblSection)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
 
         javax.swing.GroupLayout pnlVollyballMainLayout = new javax.swing.GroupLayout(pnlVollyballMain);
         pnlVollyballMain.setLayout(pnlVollyballMainLayout);
         pnlVollyballMainLayout.setHorizontalGroup(
             pnlVollyballMainLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(VpnlTittleBar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(pnlVollyballMainLayout.createSequentialGroup()
-                .addGap(246, 246, 246)
-                .addComponent(jLabel11)
-                .addContainerGap(267, Short.MAX_VALUE))
+                .addContainerGap()
+                .addGroup(pnlVollyballMainLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(VpnlCheckForm, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(VpnlBookForm, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap())
         );
         pnlVollyballMainLayout.setVerticalGroup(
             pnlVollyballMainLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(pnlVollyballMainLayout.createSequentialGroup()
-                .addGap(281, 281, 281)
-                .addComponent(jLabel11)
-                .addContainerGap(303, Short.MAX_VALUE))
+                .addGap(46, 46, 46)
+                .addComponent(VpnlTittleBar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(VpnlCheckForm, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(VpnlBookForm, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
         );
 
         pnlContent.add(pnlVollyballMain, "card2");
 
-        jPanel1.add(pnlContent, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 0, 560, 600));
+        NpnlCheckForm.setBackground(new java.awt.Color(153, 153, 153));
+
+        NlblCheckFormTittle.setBackground(new java.awt.Color(255, 255, 255));
+        NlblCheckFormTittle.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        NlblCheckFormTittle.setForeground(new java.awt.Color(255, 255, 255));
+        NlblCheckFormTittle.setText("Check Availability");
+
+        NlblDate_Check.setForeground(new java.awt.Color(255, 255, 255));
+        NlblDate_Check.setText("Chose Date :");
+
+        NlblTime_Check.setForeground(new java.awt.Color(255, 255, 255));
+        NlblTime_Check.setText("Chose Time :");
+
+        NbtnCheck.setText("Check");
+
+        NlblAvailability.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        NlblAvailability.setForeground(new java.awt.Color(0, 255, 0));
+        NlblAvailability.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        NlblAvailability.setText("Available !");
+
+        NlblCourtNo_Check.setForeground(new java.awt.Color(255, 255, 255));
+        NlblCourtNo_Check.setText("Court No :");
+
+        jList49.setModel(new javax.swing.AbstractListModel<String>() {
+            String[] strings = { "Court A", "Court B", "Court C" };
+            public int getSize() { return strings.length; }
+            public String getElementAt(int i) { return strings[i]; }
+        });
+        NscrlCourtNo_Check.setViewportView(jList49);
+
+        javax.swing.GroupLayout NpnlCheckFormLayout = new javax.swing.GroupLayout(NpnlCheckForm);
+        NpnlCheckForm.setLayout(NpnlCheckFormLayout);
+        NpnlCheckFormLayout.setHorizontalGroup(
+            NpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(NpnlCheckFormLayout.createSequentialGroup()
+                .addGap(31, 31, 31)
+                .addGroup(NpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(NlblCheckFormTittle)
+                    .addGroup(NpnlCheckFormLayout.createSequentialGroup()
+                        .addGroup(NpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(NlblDate_Check)
+                            .addComponent(NlblCourtNo_Check))
+                        .addGap(18, 18, 18)
+                        .addGroup(NpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(NpnlCheckFormLayout.createSequentialGroup()
+                                .addComponent(NspnrDate_Check, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(28, 28, 28)
+                                .addComponent(NlblTime_Check))
+                            .addComponent(NscrlCourtNo_Check, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addGroup(NpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(NbtnCheck)
+                            .addComponent(NspnrTime_Check, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addContainerGap(109, Short.MAX_VALUE))
+            .addGroup(NpnlCheckFormLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(NlblAvailability, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+        NpnlCheckFormLayout.setVerticalGroup(
+            NpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(NpnlCheckFormLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(NlblCheckFormTittle)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(NpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(NlblDate_Check)
+                    .addComponent(NspnrDate_Check, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(NlblTime_Check)
+                    .addComponent(NspnrTime_Check, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(NpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(NpnlCheckFormLayout.createSequentialGroup()
+                        .addGroup(NpnlCheckFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(NscrlCourtNo_Check, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(NlblCourtNo_Check))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(NlblAvailability))
+                    .addGroup(NpnlCheckFormLayout.createSequentialGroup()
+                        .addComponent(NbtnCheck)
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addContainerGap())
+        );
+
+        NpnlBookForm.setBackground(new java.awt.Color(153, 153, 153));
+
+        NlblBookFormTittle.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        NlblBookFormTittle.setForeground(new java.awt.Color(255, 255, 255));
+        NlblBookFormTittle.setText("Make a Booking");
+
+        NlblReason.setForeground(new java.awt.Color(255, 255, 255));
+        NlblReason.setText("Reason :");
+
+        jList50.setModel(new javax.swing.AbstractListModel<String>() {
+            String[] strings = { "Personal Practice", "Team Practice", "Friendly Match", "Compition" };
+            public int getSize() { return strings.length; }
+            public String getElementAt(int i) { return strings[i]; }
+        });
+        NscrlReason.setViewportView(jList50);
+
+        NlblDate_Book.setForeground(new java.awt.Color(255, 255, 255));
+        NlblDate_Book.setText("Chose Date :");
+
+        NlblTime_Book.setForeground(new java.awt.Color(255, 255, 255));
+        NlblTime_Book.setText("Chose Time :");
+
+        NlblCourtNo_Book.setForeground(new java.awt.Color(255, 255, 255));
+        NlblCourtNo_Book.setText("Court No :");
+
+        jList51.setModel(new javax.swing.AbstractListModel<String>() {
+            String[] strings = { "Court A", "Court B", "Court C" };
+            public int getSize() { return strings.length; }
+            public String getElementAt(int i) { return strings[i]; }
+        });
+        NscrlCourtNo_Book.setViewportView(jList51);
+
+        NbtnBook.setText("Book");
+
+        javax.swing.GroupLayout NpnlBookFormLayout = new javax.swing.GroupLayout(NpnlBookForm);
+        NpnlBookForm.setLayout(NpnlBookFormLayout);
+        NpnlBookFormLayout.setHorizontalGroup(
+            NpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(NpnlBookFormLayout.createSequentialGroup()
+                .addGap(34, 34, 34)
+                .addGroup(NpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(NpnlBookFormLayout.createSequentialGroup()
+                        .addComponent(NlblTime_Book)
+                        .addGap(18, 18, 18)
+                        .addComponent(NspnrTime_Book, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(NlblBookFormTittle)
+                    .addGroup(NpnlBookFormLayout.createSequentialGroup()
+                        .addGroup(NpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(NlblReason)
+                            .addGroup(NpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(NlblDate_Book, javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addComponent(NlblCourtNo_Book)))
+                        .addGap(18, 18, 18)
+                        .addGroup(NpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(NscrlReason, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(NbtnBook)
+                            .addComponent(NscrlCourtNo_Book, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(NspnrDate_Book, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        NpnlBookFormLayout.setVerticalGroup(
+            NpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(NpnlBookFormLayout.createSequentialGroup()
+                .addGap(15, 15, 15)
+                .addComponent(NlblBookFormTittle)
+                .addGap(16, 16, 16)
+                .addGroup(NpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(NlblReason)
+                    .addComponent(NscrlReason, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(22, 22, 22)
+                .addGroup(NpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(NlblDate_Book)
+                    .addComponent(NspnrDate_Book, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(NpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(NlblTime_Book)
+                    .addComponent(NspnrTime_Book, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(NpnlBookFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(NscrlCourtNo_Book, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(NlblCourtNo_Book))
+                .addGap(26, 26, 26)
+                .addComponent(NbtnBook)
+                .addContainerGap(26, Short.MAX_VALUE))
+        );
+
+        NpnlTittleBar.setBackground(new java.awt.Color(110, 88, 222));
+
+        NlblPath.setBackground(new java.awt.Color(255, 255, 255));
+        NlblPath.setForeground(new java.awt.Color(255, 255, 255));
+        NlblPath.setText("Home/");
+
+        NlblSection.setBackground(new java.awt.Color(255, 255, 255));
+        NlblSection.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        NlblSection.setForeground(new java.awt.Color(255, 255, 255));
+        NlblSection.setText("Netball");
+
+        javax.swing.GroupLayout NpnlTittleBarLayout = new javax.swing.GroupLayout(NpnlTittleBar);
+        NpnlTittleBar.setLayout(NpnlTittleBarLayout);
+        NpnlTittleBarLayout.setHorizontalGroup(
+            NpnlTittleBarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(NpnlTittleBarLayout.createSequentialGroup()
+                .addGap(37, 37, 37)
+                .addGroup(NpnlTittleBarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(NlblSection)
+                    .addComponent(NlblPath))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        NpnlTittleBarLayout.setVerticalGroup(
+            NpnlTittleBarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(NpnlTittleBarLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(NlblPath)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(NlblSection)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        javax.swing.GroupLayout pnlNetballMainLayout = new javax.swing.GroupLayout(pnlNetballMain);
+        pnlNetballMain.setLayout(pnlNetballMainLayout);
+        pnlNetballMainLayout.setHorizontalGroup(
+            pnlNetballMainLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(NpnlTittleBar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(pnlNetballMainLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(pnlNetballMainLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(NpnlCheckForm, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(NpnlBookForm, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap())
+        );
+        pnlNetballMainLayout.setVerticalGroup(
+            pnlNetballMainLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(pnlNetballMainLayout.createSequentialGroup()
+                .addGap(46, 46, 46)
+                .addComponent(NpnlTittleBar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(NpnlCheckForm, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(NpnlBookForm, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+
+        pnlContent.add(pnlNetballMain, "card2");
+
+        pnlRoot.add(pnlContent, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 0, 560, 600));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(pnlRoot, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(pnlRoot, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         pack();
@@ -908,31 +2901,255 @@ public class Welcome extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel13;
-    private javax.swing.JLabel jLabel14;
-    private javax.swing.JLabel jLabel15;
-    private javax.swing.JLabel jLabel16;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
+    private javax.swing.JButton BBbtnBook;
+    private javax.swing.JButton BBbtnCheck;
+    private javax.swing.JLabel BBlblAvailability;
+    private javax.swing.JLabel BBlblBookFormTittle;
+    private javax.swing.JLabel BBlblCheckFormTittle;
+    private javax.swing.JLabel BBlblCourtNo_Book;
+    private javax.swing.JLabel BBlblCourtNo_Check;
+    private javax.swing.JLabel BBlblDate_Book;
+    private javax.swing.JLabel BBlblDate_Check;
+    private javax.swing.JLabel BBlblPath;
+    private javax.swing.JLabel BBlblReason;
+    private javax.swing.JLabel BBlblSection;
+    private javax.swing.JLabel BBlblTime_Book;
+    private javax.swing.JLabel BBlblTime_Check;
+    private javax.swing.JPanel BBpnlBookForm;
+    private javax.swing.JPanel BBpnlCheckForm;
+    private javax.swing.JPanel BBpnlTittleBar;
+    private javax.swing.JScrollPane BBscrlCourtNo_Book;
+    private javax.swing.JScrollPane BBscrlCourtNo_Check;
+    private javax.swing.JScrollPane BBscrlReason;
+    private javax.swing.JSpinner BBspnrDate_Book;
+    private javax.swing.JSpinner BBspnrDate_Check;
+    private javax.swing.JSpinner BBspnrTime_Book;
+    private javax.swing.JSpinner BBspnrTime_Check;
+    private javax.swing.JButton BDbtnBook;
+    private javax.swing.JButton BDbtnCheck;
+    private javax.swing.JLabel BDlblAvailability;
+    private javax.swing.JLabel BDlblBookFormTittle;
+    private javax.swing.JLabel BDlblCheckFormTittle;
+    private javax.swing.JLabel BDlblCourtNo_Book;
+    private javax.swing.JLabel BDlblCourtNo_Check;
+    private javax.swing.JLabel BDlblDate_Book;
+    private javax.swing.JLabel BDlblDate_Check;
+    private javax.swing.JLabel BDlblPath;
+    private javax.swing.JLabel BDlblPath4;
+    private javax.swing.JLabel BDlblPath5;
+    private javax.swing.JLabel BDlblReason;
+    private javax.swing.JLabel BDlblSection;
+    private javax.swing.JLabel BDlblSection12;
+    private javax.swing.JLabel BDlblSection13;
+    private javax.swing.JLabel BDlblTime_Book;
+    private javax.swing.JLabel BDlblTime_Check;
+    private javax.swing.JPanel BDpnlBookForm;
+    private javax.swing.JPanel BDpnlCheckForm;
+    private javax.swing.JPanel BDpnlTittleBar;
+    private javax.swing.JPanel BDpnlTittleBar4;
+    private javax.swing.JPanel BDpnlTittleBar5;
+    private javax.swing.JScrollPane BDscrlCourtNo_Book;
+    private javax.swing.JScrollPane BDscrlCourtNo_Check;
+    private javax.swing.JScrollPane BDscrlReason;
+    private javax.swing.JSpinner BDspnrDate_Book;
+    private javax.swing.JSpinner BDspnrDate_Check;
+    private javax.swing.JSpinner BDspnrTime_Book;
+    private javax.swing.JSpinner BDspnrTime_Check;
+    private javax.swing.JButton CbtnBook;
+    private javax.swing.JButton CbtnCheck;
+    private javax.swing.JLabel ClblAvailability;
+    private javax.swing.JLabel ClblBookFormTittle;
+    private javax.swing.JLabel ClblCheckFormTittle;
+    private javax.swing.JLabel ClblCourtNo_Book;
+    private javax.swing.JLabel ClblCourtNo_Check;
+    private javax.swing.JLabel ClblDate_Book;
+    private javax.swing.JLabel ClblDate_Check;
+    private javax.swing.JLabel ClblPath;
+    private javax.swing.JLabel ClblReason;
+    private javax.swing.JLabel ClblSection;
+    private javax.swing.JLabel ClblTime_Book;
+    private javax.swing.JLabel ClblTime_Check;
+    private javax.swing.JPanel CpnlBookForm;
+    private javax.swing.JPanel CpnlCheckForm;
+    private javax.swing.JPanel CpnlTittleBar;
+    private javax.swing.JScrollPane CscrlCourtNo_Book;
+    private javax.swing.JScrollPane CscrlCourtNo_ChecK;
+    private javax.swing.JScrollPane CscrlReason;
+    private javax.swing.JSpinner CspnrDate_Book;
+    private javax.swing.JSpinner CspnrDate_Check;
+    private javax.swing.JSpinner CspnrTime_Book;
+    private javax.swing.JSpinner CspnrTime_Check;
+    private javax.swing.JButton FbtnBook;
+    private javax.swing.JButton FbtnCheck;
+    private javax.swing.JLabel FlblAvailability;
+    private javax.swing.JLabel FlblBookFormTittle;
+    private javax.swing.JLabel FlblCheckFormTittle;
+    private javax.swing.JLabel FlblCourtNo_Book;
+    private javax.swing.JLabel FlblCourtNo_Check;
+    private javax.swing.JLabel FlblDate_Book;
+    private javax.swing.JLabel FlblDate_Check;
+    private javax.swing.JLabel FlblPath;
+    private javax.swing.JLabel FlblReason;
+    private javax.swing.JLabel FlblSection;
+    private javax.swing.JLabel FlblTime_Book;
+    private javax.swing.JLabel FlblTime_Check;
+    private javax.swing.JPanel FpnlBookForm;
+    private javax.swing.JPanel FpnlCheckForm;
+    private javax.swing.JPanel FpnlTittleBar;
+    private javax.swing.JScrollPane FscrlCourtNo_Book;
+    private javax.swing.JScrollPane FscrlCourtNo_Check;
+    private javax.swing.JScrollPane FscrlReason;
+    private javax.swing.JSpinner FspnrDate_Book;
+    private javax.swing.JSpinner FspnrDate_Check;
+    private javax.swing.JSpinner FspnrTime_Book;
+    private javax.swing.JSpinner FspnrTime_Check;
+    private javax.swing.JButton HbtnBook;
+    private javax.swing.JButton HbtnCheck;
+    private javax.swing.JLabel HlblAvailability;
+    private javax.swing.JLabel HlblBookFormTittle;
+    private javax.swing.JLabel HlblCheckFormTittle;
+    private javax.swing.JLabel HlblCourtNo_Book;
+    private javax.swing.JLabel HlblCourtNo_Check;
+    private javax.swing.JLabel HlblDate_Book;
+    private javax.swing.JLabel HlblDate_Check;
+    private javax.swing.JLabel HlblPath;
+    private javax.swing.JLabel HlblReason;
+    private javax.swing.JLabel HlblSection;
+    private javax.swing.JLabel HlblTime_Book;
+    private javax.swing.JLabel HlblTime_Check;
+    private javax.swing.JPanel HpnlBookForm;
+    private javax.swing.JPanel HpnlCheckForm;
+    private javax.swing.JPanel HpnlTittleBar;
+    private javax.swing.JScrollPane HscrlCourtNo_Book;
+    private javax.swing.JScrollPane HscrlCourtNo_Check;
+    private javax.swing.JScrollPane HscrlReason;
+    private javax.swing.JSpinner HspnrDate_Book;
+    private javax.swing.JSpinner HspnrDate_Check;
+    private javax.swing.JSpinner HspnrTime_Book;
+    private javax.swing.JSpinner HspnrTime_Check;
+    private javax.swing.JButton NbtnBook;
+    private javax.swing.JButton NbtnCheck;
+    private javax.swing.JLabel NlblAvailability;
+    private javax.swing.JLabel NlblBookFormTittle;
+    private javax.swing.JLabel NlblCheckFormTittle;
+    private javax.swing.JLabel NlblCourtNo_Book;
+    private javax.swing.JLabel NlblCourtNo_Check;
+    private javax.swing.JLabel NlblDate_Book;
+    private javax.swing.JLabel NlblDate_Check;
+    private javax.swing.JLabel NlblPath;
+    private javax.swing.JLabel NlblReason;
+    private javax.swing.JLabel NlblSection;
+    private javax.swing.JLabel NlblTime_Book;
+    private javax.swing.JLabel NlblTime_Check;
+    private javax.swing.JPanel NpnlBookForm;
+    private javax.swing.JPanel NpnlCheckForm;
+    private javax.swing.JPanel NpnlTittleBar;
+    private javax.swing.JScrollPane NscrlCourtNo_Book;
+    private javax.swing.JScrollPane NscrlCourtNo_Check;
+    private javax.swing.JScrollPane NscrlReason;
+    private javax.swing.JSpinner NspnrDate_Book;
+    private javax.swing.JSpinner NspnrDate_Check;
+    private javax.swing.JSpinner NspnrTime_Book;
+    private javax.swing.JSpinner NspnrTime_Check;
+    private javax.swing.JButton RbtnBook;
+    private javax.swing.JButton RbtnCheck;
+    private javax.swing.JLabel RlblAvailability;
+    private javax.swing.JLabel RlblBookFormTittle;
+    private javax.swing.JLabel RlblCheckFormTittle;
+    private javax.swing.JLabel RlblCourtNo_Book;
+    private javax.swing.JLabel RlblCourtNo_Check;
+    private javax.swing.JLabel RlblDate_Book;
+    private javax.swing.JLabel RlblDate_Check;
+    private javax.swing.JLabel RlblPath;
+    private javax.swing.JLabel RlblReason;
+    private javax.swing.JLabel RlblSection;
+    private javax.swing.JLabel RlblTime_Book;
+    private javax.swing.JLabel RlblTime_Check;
+    private javax.swing.JPanel RpnlBookForm;
+    private javax.swing.JPanel RpnlCheckForm;
+    private javax.swing.JPanel RpnlTittleBar;
+    private javax.swing.JScrollPane RscrlCourtNo_Book;
+    private javax.swing.JScrollPane RscrlCourtNo_Check;
+    private javax.swing.JScrollPane RscrlReason;
+    private javax.swing.JSpinner RspnrDate_Book;
+    private javax.swing.JSpinner RspnrDate_Check;
+    private javax.swing.JSpinner RspnrTime_Book;
+    private javax.swing.JSpinner RspnrTime_Check;
+    private javax.swing.JButton TTbtnBook;
+    private javax.swing.JButton TTbtnCheck;
+    private javax.swing.JLabel TTlblAvailability;
+    private javax.swing.JLabel TTlblBookFormTittle;
+    private javax.swing.JLabel TTlblCheckFormTittle;
+    private javax.swing.JLabel TTlblCourtNo_Book;
+    private javax.swing.JLabel TTlblCourtNo_Check;
+    private javax.swing.JLabel TTlblDate_Book;
+    private javax.swing.JLabel TTlblDate_Check;
+    private javax.swing.JLabel TTlblPath;
+    private javax.swing.JLabel TTlblReason;
+    private javax.swing.JLabel TTlblSection;
+    private javax.swing.JLabel TTlblTime_Book;
+    private javax.swing.JLabel TTlblTime_Check;
+    private javax.swing.JPanel TTpnlBookForm;
+    private javax.swing.JPanel TTpnlCheckForm;
+    private javax.swing.JPanel TTpnlTittleBar;
+    private javax.swing.JScrollPane TTscrlCourtNo_Book;
+    private javax.swing.JScrollPane TTscrlCourtNo_Check;
+    private javax.swing.JScrollPane TTscrlReason;
+    private javax.swing.JSpinner TTspnrDate_Book;
+    private javax.swing.JSpinner TTspnrDate_Check;
+    private javax.swing.JSpinner TTspnrTime_Book;
+    private javax.swing.JSpinner TTspnrTime_Check;
+    private javax.swing.JButton VbtnBook;
+    private javax.swing.JButton VbtnCheck;
+    private javax.swing.JLabel VlblAvailability;
+    private javax.swing.JLabel VlblBookFormTittle;
+    private javax.swing.JLabel VlblCheckFormTittle;
+    private javax.swing.JLabel VlblCourtNo_Book;
+    private javax.swing.JLabel VlblCourtNo_Check;
+    private javax.swing.JLabel VlblDate_Book;
+    private javax.swing.JLabel VlblDate_Check;
+    private javax.swing.JLabel VlblPath;
+    private javax.swing.JLabel VlblReason;
+    private javax.swing.JLabel VlblSection;
+    private javax.swing.JLabel VlblTime_Book;
+    private javax.swing.JLabel VlblTime_Check;
+    private javax.swing.JPanel VpnlBookForm;
+    private javax.swing.JPanel VpnlCheckForm;
+    private javax.swing.JPanel VpnlTittleBar;
+    private javax.swing.JScrollPane VscrlCourtNo_Book;
+    private javax.swing.JScrollPane VscrlCourtNo_Check;
+    private javax.swing.JScrollPane VscrlReason;
+    private javax.swing.JSpinner VspnrDate_Book;
+    private javax.swing.JSpinner VspnrDate_Check;
+    private javax.swing.JSpinner VspnrTime_Book;
+    private javax.swing.JSpinner VspnrTime_Check;
     private javax.swing.JList<String> jList1;
-    private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel2;
-    private javax.swing.JPanel jPanel3;
-    private javax.swing.JPanel jPanel4;
-    private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JSpinner jSpinner1;
-    private javax.swing.JSpinner jSpinner2;
+    private javax.swing.JList<String> jList2;
+    private javax.swing.JList<String> jList28;
+    private javax.swing.JList<String> jList29;
+    private javax.swing.JList<String> jList3;
+    private javax.swing.JList<String> jList30;
+    private javax.swing.JList<String> jList31;
+    private javax.swing.JList<String> jList32;
+    private javax.swing.JList<String> jList33;
+    private javax.swing.JList<String> jList34;
+    private javax.swing.JList<String> jList35;
+    private javax.swing.JList<String> jList36;
+    private javax.swing.JList<String> jList37;
+    private javax.swing.JList<String> jList38;
+    private javax.swing.JList<String> jList39;
+    private javax.swing.JList<String> jList40;
+    private javax.swing.JList<String> jList41;
+    private javax.swing.JList<String> jList42;
+    private javax.swing.JList<String> jList43;
+    private javax.swing.JList<String> jList44;
+    private javax.swing.JList<String> jList45;
+    private javax.swing.JList<String> jList46;
+    private javax.swing.JList<String> jList47;
+    private javax.swing.JList<String> jList48;
+    private javax.swing.JList<String> jList49;
+    private javax.swing.JList<String> jList50;
+    private javax.swing.JList<String> jList51;
     private javax.swing.JLabel lblBadminton;
     private javax.swing.JLabel lblBasketball;
     private javax.swing.JLabel lblCricket;
@@ -959,6 +3176,7 @@ public class Welcome extends javax.swing.JFrame {
     private javax.swing.JPanel pnlMenu;
     private javax.swing.JPanel pnlNetball;
     private javax.swing.JPanel pnlNetballMain;
+    private javax.swing.JPanel pnlRoot;
     private javax.swing.JPanel pnlRuger;
     private javax.swing.JPanel pnlRugerMain;
     private javax.swing.JPanel pnlTabletenis;
