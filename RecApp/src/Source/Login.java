@@ -62,6 +62,10 @@ ResultSet rs = null;
 
         lblPassword.setText("Password");
 
+        txtPassword.setText("password123");
+
+        txtUserName.setText("BSC-PLY-COM-16.1-");
+
         btnLogin.setText("Log In");
         btnLogin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -118,11 +122,12 @@ ResultSet rs = null;
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
+        
+    
     private void btnLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLoginActionPerformed
         // TODO add your handling code here:
         conn = MysqlConnect.ConnectDB();
-        String sql = "SELECT * FROM users WHERE user_name =  ? AND password = ?";
+        String sql = "SELECT * FROM user WHERE nsbm_id =  ? AND password = ?";
         try{
             pst = conn.prepareStatement(sql);
             pst.setString(1, txtUserName.getText());
@@ -130,7 +135,9 @@ ResultSet rs = null;
             rs = pst.executeQuery();
             if(rs.next()){
                 JOptionPane.showMessageDialog(null, "welcome user");
-                Welcome w = new Welcome();
+                
+                dispose();
+                Welcome w = new Welcome(txtUserName.getText());
                 w.setVisible(true);
             }
             else{

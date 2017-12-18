@@ -18,7 +18,7 @@ public class MysqlConnect {
         try{ 
             Class.forName("com.mysql.jdbc.Driver");
             Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/recreational center","root","");
-            JOptionPane.showMessageDialog(null, "Connected to database");
+            
             return conn;
         }
         catch(Exception e){
